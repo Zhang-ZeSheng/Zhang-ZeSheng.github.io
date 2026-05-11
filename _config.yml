@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Longfei Xiao"
+title                    : "Kang Yang"
 description              : ""
 repository               : "Longfei-Xiao/longfei-xiao.github.io"
 google_scholar_stats_use_cdn : true
@@ -21,14 +21,14 @@ baidu_site_verification  :
 
 # Site Author
 author:
-  name             : "Longfei Xiao"
+  name             : "Kang Yang"
   avatar           : "images/profile.jpg"
   bio              : "Undergraduate Student in Computer Science and Technology"
-  location         : "Jiaozuo, Henan, China"
-  employer         : "Henan Polytechnic University"
+  location         : "Huainan , China"
+  employer         : "Anhui University of Science and Technology"
   pubmed           :
   googlescholar    :
-  email            : "382305020422@home.hpu.edu.cn"
+  email            : "2023304792@aust.edu.cn"
   researchgate     :
   uri              : "https://longfei-xiao.github.io/"
   bitbucket        :
