@@ -1,11 +1,11 @@
 ---
-permalink: /
+permalink: "/"
 title: "Homepage"
 excerpt: ""
 author_profile: true
 redirect_from:
-/about/
-/about.html
+  - /about/
+  - /about.html
 ---
 <style>
 .home-section {
