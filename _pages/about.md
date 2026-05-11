@@ -347,7 +347,7 @@ summary {
 
 <div class="bio-card" id="about">
   <div class="bio-main">
-    I am <strong>Kang Yang</strong>, an undergraduate student majoring in <strong>Computer Science and Technology</strong> at <strong>Anhui University of Science and Technology</strong>. I am broadly interested in building reliable visual perception models, with the goal of enabling deep learning systems to better understand complex visual structures in real-world scenes.
+   I am <strong>Kang Yang</strong>, an undergraduate student majoring in <strong>Computer Science and Technology</strong> at <strong>Anhui University of Science and Technology</strong>. My research interests lie in <strong>low-light image enhancement</strong>, <strong>remote sensing image restoration</strong>, and <strong>computational imaging</strong>. I aim to develop reliable deep learning methods for enhancing degraded visual content while preserving structural details, semantic consistency, and perceptual quality.
   </div>
 
   <div class="tag-row">
