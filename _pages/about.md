@@ -459,7 +459,7 @@ summary {
     </div>
 
  <div class="pub-figure">
-    src="images/Pipline2.png" alt="Pipeline of GSPNet">
+    src="images/Pipline2.png" alt="Pipeline of StructMamba">
   </div>
 
     <div class="metric-row">
@@ -498,7 +498,7 @@ summary {
     </div>
 
  <div class="pub-figure">
-    src="images/Pipline3.jpg" alt="Pipeline of GSPNet">
+    src="images/Pipline3.jpg" alt="Pipeline of PDAO-Net">
   </div>
 
     <div class="metric-row">
