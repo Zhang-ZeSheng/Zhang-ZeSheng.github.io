@@ -458,6 +458,10 @@ summary {
       A structure-sensitive Mamba-based semantic segmentation framework that introduces <strong>Boundary-Context Guided Deformable Scan</strong> to adapt scan control to boundaries, small objects, thin structures, and ambiguous regions.
     </div>
 
+ <div class="pub-figure">
+    src="images/Pipline2.png" alt="Pipeline of GSPNet">
+  </div>
+
     <div class="metric-row">
       <span class="metric">Cityscapes: 82.12% mIoU</span>
       <span class="metric">ADE20K: 50.20% mIoU</span>
@@ -492,6 +496,10 @@ summary {
     <div class="pub-short">
       A physics-constrained reconstruction framework for sparse-view 3D-DSA that alternates between <strong>projection-domain correction</strong> and <strong>image-domain refinement</strong>.
     </div>
+
+ <div class="pub-figure">
+    src="images/Pipline3.jpg" alt="Pipeline of GSPNet">
+  </div>
 
     <div class="metric-row">
       <span class="metric">Dual-domain Optimization</span>
