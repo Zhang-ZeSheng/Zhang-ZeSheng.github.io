@@ -12,7 +12,18 @@ redirect_from:
 .home-section {
   margin: 34px 0 44px 0;
 }
+.pub-figure {
+  margin: 16px 0 14px;
+  text-align: center;
+}
 
+.pub-figure img {
+  width: 100%;
+  max-width: 850px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
 .home-title {
   display: flex;
   align-items: center;
@@ -387,38 +398,43 @@ summary {
 
 <div class="home-section" id="publications">
   <div class="home-title" data-icon="📚">Publications</div>
- <div class="pub-card rs">
-    <div class="pub-label rs">Remote Sensing · Low-light Enhancement</div>
+<div class="pub-card rs">
+  <div class="pub-label rs">Remote Sensing · Low-light Enhancement</div>
 
-    <div class="pub-title">
-      Towards High-quality Low-Light Remote Sensing Image Enhancement via Geometric and Semantic Prior Guidance
-    </div>
-
-    <div class="pub-authors">
-      <strong>Kang Yang</strong>, Jiaqi Zhang, Changqiu Xu, Longfei Xiao, Tong Liang, Zesheng Zhang
-    </div>
-
-    <div class="pub-venue">
-      Submitted to International Conference on Neural Information Processing (ICONIP), 2026
-    </div>
-
-    <div class="pub-short">
-      A low-light remote sensing image enhancement framework that combines an <strong>HVI-based dual-branch design</strong>, geometric-semantic prior guidance, and adaptive sparse refinement.
-    </div>
-
-    <div class="metric-row">
-      <span class="metric">HVI Dual-branch</span>
-      <span class="metric">DINOv2 + Depth Priors</span>
-      <span class="metric">Adaptive Sparse Refinement</span>
-    </div>
-
-    <details>
-      <summary>Show details</summary>
-      <div class="detail-box">
-        GSPNet addresses illumination degradation, chromatic distortion, and dark-region noise in remote sensing images. It decouples brightness restoration from color recovery in the HVI space, injects semantic and geometric priors from frozen vision foundation models, and uses adaptive sparse refinement to suppress unreliable feature interactions while preserving land-cover structures.
-      </div>
-    </details>
+  <div class="pub-title">
+    Towards High-quality Low-Light Remote Sensing Image Enhancement via Geometric and Semantic Prior Guidance
   </div>
+
+  <div class="pub-authors">
+    <strong>Kang Yang</strong>, Jiaqi Zhang, Changqiu Xu, Longfei Xiao, Tong Liang, Zesheng Zhang
+  </div>
+
+  <div class="pub-venue">
+    Submitted to International Conference on Neural Information Processing (ICONIP), 2026
+  </div>
+
+  <div class="pub-short">
+    A low-light remote sensing image enhancement framework that combines an <strong>HVI-based dual-branch design</strong>, geometric-semantic prior guidance, and adaptive sparse refinement.
+  </div>
+
+  <!-- Pipeline Figure -->
+  <div class="pub-figure">
+    <img src="pipline.jpg" alt="Pipeline of GSPNet">
+  </div>
+
+  <div class="metric-row">
+    <span class="metric">HVI Dual-branch</span>
+    <span class="metric">DINOv2 + Depth Priors</span>
+    <span class="metric">Adaptive Sparse Refinement</span>
+  </div>
+
+  <details>
+    <summary>Show details</summary>
+    <div class="detail-box">
+      GSPNet addresses illumination degradation, chromatic distortion, and dark-region noise in remote sensing images. It decouples brightness restoration from color recovery in the HVI space, injects semantic and geometric priors from frozen vision foundation models, and uses adaptive sparse refinement to suppress unreliable feature interactions while preserving land-cover structures.
+    </div>
+  </details>
+</div>
 
 
 
