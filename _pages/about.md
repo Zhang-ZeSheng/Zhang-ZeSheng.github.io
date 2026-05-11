@@ -419,7 +419,7 @@ summary {
 
   <!-- Pipeline Figure -->
   <div class="pub-figure">
-    <img src="{{ '/images/Pipline.jpg' | relative_url }}" alt="Pipeline of GSPNet">
+    src="images/Pipline.jpg" alt="Pipeline of GSPNet">
   </div>
 
   <div class="metric-row">
