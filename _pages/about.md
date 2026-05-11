@@ -358,7 +358,7 @@ summary {
 
   <div class="info-card soft">
     <div class="edu-head">
-      <img class="edu-logo" src="/images/hpu-logo.png" alt="Anhui University of Science and Technology">
+      <img class="edu-logo" src="/images/aust-logo.png" alt="Anhui University of Science and Technology">
 
       <div>
         <div class="edu-name">Anhui University of Science and Technology</div>
@@ -395,7 +395,7 @@ summary {
     </div>
 
     <div class="pub-authors">
-      Kang Yang, Jiaqi Zhang, Changqiu Xu, <strong>Longfei Xiao</strong>, Tong Liang, Zesheng Zhang
+      <strong>Kang Yang</strong>, Jiaqi Zhang, Changqiu Xu, Longfei Xiao, Tong Liang, Zesheng Zhang
     </div>
 
     <div class="pub-venue">
@@ -431,7 +431,7 @@ summary {
     </div>
 
     <div class="pub-authors">
-      <strong>Longfei Xiao</strong>, Linlin Zhang, Kang Yang, Changqiu Xu, Shuyu Liu, Jianfang Wang
+     Longfei Xiao, Linlin Zhang,  <strong>Kang Yang</strong>, Changqiu Xu, Shuyu Liu, Jianfang Wang
     </div>
 
     <div class="pub-venue">
@@ -466,7 +466,7 @@ summary {
     </div>
 
     <div class="pub-authors">
-      Changqiu Xu, Xi Wang, Yujia Li, Tong Liang, Kang Yang, <strong>Longfei Xiao</strong>, Yikun Zhang, Yang Chen
+      Changqiu Xu, Xi Wang, Yujia Li, Tong Liang, <strong>Kang Yang</strong>, Longfei Xiao, Yikun Zhang, Yang Chen
     </div>
 
     <div class="pub-venue">
