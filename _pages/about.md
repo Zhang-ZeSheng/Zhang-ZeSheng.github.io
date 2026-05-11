@@ -369,7 +369,7 @@ summary {
 
   <div class="info-card soft">
     <div class="edu-head">
-      <img class="edu-logo" src="/images/aust-logo.png" alt="Anhui University of Science and Technology">
+      <img class="edu-logo" src="images/aust-logo.png" alt="Anhui University of Science and Technology">
 
       <div>
         <div class="edu-name">Anhui University of Science and Technology</div>
