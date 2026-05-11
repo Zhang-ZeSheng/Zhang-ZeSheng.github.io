@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Kang Yang"
 description              : ""
-repository               : "Longfei-Xiao/longfei-xiao.github.io"
+repository               : "https://github.com/ykang0478-ai/kangyang.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -30,14 +30,14 @@ author:
   googlescholar    :
   email            : "2023304792@aust.edu.cn"
   researchgate     :
-  uri              : "https://longfei-xiao.github.io/"
+  uri              : "https://ykang0478-ai.github.io/"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Longfei-Xiao"
+  github           : "ykang0478-ai"
   google_plus      :
   keybase          :
   instagram        :
