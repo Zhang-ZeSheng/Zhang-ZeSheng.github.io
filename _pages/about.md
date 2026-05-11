@@ -419,7 +419,7 @@ summary {
 
   <!-- Pipeline Figure -->
   <div class="pub-figure">
-    <img src="pipline.jpg" alt="Pipeline of GSPNet">
+    <img src="Pipline.jpg" alt="Pipeline of GSPNet">
   </div>
 
   <div class="metric-row">
