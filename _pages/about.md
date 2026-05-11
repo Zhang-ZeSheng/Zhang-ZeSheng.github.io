@@ -336,20 +336,20 @@ summary {
 
 <div class="bio-card" id="about">
   <div class="bio-main">
-    I am <strong>Longfei Xiao</strong>, an undergraduate student majoring in <strong>Computer Science and Technology</strong> at <strong>Henan Polytechnic University</strong>. I am broadly interested in building reliable visual perception models, with the goal of enabling deep learning systems to better understand complex visual structures in real-world scenes.
+    I am <strong>Kang Yang</strong>, an undergraduate student majoring in <strong>Computer Science and Technology</strong> at <strong>Anhui University of Science and Technology</strong>. I am broadly interested in building reliable visual perception models, with the goal of enabling deep learning systems to better understand complex visual structures in real-world scenes.
   </div>
 
   <div class="tag-row">
     <span class="tag">Computer Vision</span>
-    <span class="tag">Semantic Segmentation</span>
-    <span class="tag">Visual State Space Models</span>
+    <span class="tag">Image Enhancement</span>
+    <span class="tag">Artificial Intelligence</span>
     <span class="tag">Multimodal Learning</span>
     <span class="tag">Deep Learning</span>
   </div>
 
   <div class="action-row">
-    <a class="action-btn" href="https://orcid.org/0009-0004-7405-1131">ORCID</a>
-    <a class="action-btn" href="https://github.com/Longfei-Xiao">GitHub</a>
+    <a class="action-btn" href="https://orcid.org/0009-0008-6095-0792">ORCID</a>
+    <a class="action-btn" href="https://github.com/ykang0478-ai">GitHub</a>
   </div>
 </div>
 
@@ -358,10 +358,10 @@ summary {
 
   <div class="info-card soft">
     <div class="edu-head">
-      <img class="edu-logo" src="/images/hpu-logo.png" alt="Henan Polytechnic University Logo">
+      <img class="edu-logo" src="/images/hpu-logo.png" alt="Anhui University of Science and Technology">
 
       <div>
-        <div class="edu-name">Henan Polytechnic University</div>
+        <div class="edu-name">Anhui University of Science and Technology</div>
         <div class="edu-meta">B.Eng. in Computer Science and Technology &nbsp; | &nbsp; Sep. 2023 - Present</div>
       </div>
     </div>
@@ -369,12 +369,12 @@ summary {
     <div class="edu-grid">
       <div class="edu-item">
         <strong>GPA</strong><br>
-        4.19 / 5.00
+        4.20 / 5.00
       </div>
 
       <div class="edu-item">
         <strong>Ranking</strong><br>
-        2 / 160, top 2%
+        12/ 402, top 3%
       </div>
 
       <div class="edu-item">
@@ -387,6 +387,41 @@ summary {
 
 <div class="home-section" id="publications">
   <div class="home-title" data-icon="📚">Publications</div>
+ <div class="pub-card rs">
+    <div class="pub-label rs">Remote Sensing · Low-light Enhancement</div>
+
+    <div class="pub-title">
+      Towards High-quality Low-Light Remote Sensing Image Enhancement via Geometric and Semantic Prior Guidance
+    </div>
+
+    <div class="pub-authors">
+      Kang Yang, Jiaqi Zhang, Changqiu Xu, <strong>Longfei Xiao</strong>, Tong Liang, Zesheng Zhang
+    </div>
+
+    <div class="pub-venue">
+      Submitted to International Conference on Neural Information Processing (ICONIP), 2026
+    </div>
+
+    <div class="pub-short">
+      A low-light remote sensing image enhancement framework that combines an <strong>HVI-based dual-branch design</strong>, geometric-semantic prior guidance, and adaptive sparse refinement.
+    </div>
+
+    <div class="metric-row">
+      <span class="metric">HVI Dual-branch</span>
+      <span class="metric">DINOv2 + Depth Priors</span>
+      <span class="metric">Adaptive Sparse Refinement</span>
+    </div>
+
+    <details>
+      <summary>Show details</summary>
+      <div class="detail-box">
+        GSPNet addresses illumination degradation, chromatic distortion, and dark-region noise in remote sensing images. It decouples brightness restoration from color recovery in the HVI space, injects semantic and geometric priors from frozen vision foundation models, and uses adaptive sparse refinement to suppress unreliable feature interactions while preserving land-cover structures.
+      </div>
+    </details>
+  </div>
+
+
+
 
   <div class="pub-card seg">
     <div class="pub-label seg">Semantic Segmentation · Mamba</div>
@@ -421,38 +456,7 @@ summary {
     </details>
   </div>
 
-  <div class="pub-card rs">
-    <div class="pub-label rs">Remote Sensing · Low-light Enhancement</div>
-
-    <div class="pub-title">
-      Towards High-quality Low-Light Remote Sensing Image Enhancement via Geometric and Semantic Prior Guidance
-    </div>
-
-    <div class="pub-authors">
-      Kang Yang, Jiaqi Zhang, Changqiu Xu, <strong>Longfei Xiao</strong>, Tong Liang, Zesheng Zhang
-    </div>
-
-    <div class="pub-venue">
-      Submitted to International Conference on Neural Information Processing (ICONIP), 2026
-    </div>
-
-    <div class="pub-short">
-      A low-light remote sensing image enhancement framework that combines an <strong>HVI-based dual-branch design</strong>, geometric-semantic prior guidance, and adaptive sparse refinement.
-    </div>
-
-    <div class="metric-row">
-      <span class="metric">HVI Dual-branch</span>
-      <span class="metric">DINOv2 + Depth Priors</span>
-      <span class="metric">Adaptive Sparse Refinement</span>
-    </div>
-
-    <details>
-      <summary>Show details</summary>
-      <div class="detail-box">
-        GSPNet addresses illumination degradation, chromatic distortion, and dark-region noise in remote sensing images. It decouples brightness restoration from color recovery in the HVI space, injects semantic and geometric priors from frozen vision foundation models, and uses adaptive sparse refinement to suppress unreliable feature interactions while preserving land-cover structures.
-      </div>
-    </details>
-  </div>
+ 
 
   <div class="pub-card med">
     <div class="pub-label med">Medical Imaging · 3D Reconstruction</div>
