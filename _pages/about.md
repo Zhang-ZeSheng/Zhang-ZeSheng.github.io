@@ -1,8 +1,14 @@
-permalink: /title: "Homepage"excerpt: ""author_profile: trueredirect_from:
+---
+permalink: /
+title: "Homepage"
+excerpt: ""
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
 
-/about/
 
-/about.html
 <style>
 .home-section {
   margin: 34px 0 44px 0;
