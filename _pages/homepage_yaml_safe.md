@@ -225,7 +225,7 @@ redirect_from:
 }
 
 .pub-title {
-  font-size: 1.18rem;
+  font-size: 1.58rem;
   font-weight: 850;
   color: #111827;
   line-height: 1.45;
