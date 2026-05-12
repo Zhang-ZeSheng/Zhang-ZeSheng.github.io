@@ -529,10 +529,10 @@ summary {
     </div>
 
     <div style="line-height: 1.9; color: #374151;">
-      Technology stack: Python / LLM / BGE-base-en/ FAISS / BM25 / Prompt Engineer / ReAct Agent
-·Build RAG knowledge base in government domain, clean and process 1,529 policy texts +7,625 question and answer pairs, generate 30,833 retrieval chunks by multi-strategy segmentation
-·FAISS vector index database is constructed by BGE-base-zh model coding knowledge base, and the inverted keyword index database is constructed. The two-way hybrid retrieval scheme based on cosine similarity (30,000 chunk delay <50ms) and BM25 keyword retrieval (delay <10ms) is adopted, and the problem of insufficient semantic recall of government proper nouns is solved by RRF fusion sorting.
-·System Prompt integrates output format constraints, reference annotation rules and reject fabrication instructions, combined with RAG retrieval constraints to effectively alleviate large model illusion and improve the accuracy and authenticity of Q & A.
+      Technology stack: Python / LLM / BGE-base-en/ FAISS / BM25 / Prompt Engineer / ReAct Agent<br>
+·Build RAG knowledge base in government domain, clean and process 1,529 policy texts +7,625 question and answer pairs, generate 30,833 retrieval chunks by multi-strategy segmentation<br>
+·FAISS vector index database is constructed by BGE-base-zh model coding knowledge base, and the inverted keyword index database is constructed. The two-way hybrid retrieval scheme based on cosine similarity (30,000 chunk delay <50ms) and BM25 keyword retrieval (delay <10ms) is adopted, and the problem of insufficient semantic recall of government proper nouns is solved by RRF fusion sorting.<br>
+·System Prompt integrates output format constraints, reference annotation rules and reject fabrication instructions, combined with RAG retrieval constraints to effectively alleviate large model illusion and improve the accuracy and authenticity of Q & A.<br>
 ·Design ReAct reasoning Agent, autonomous scheduling policy retrieval and question-answer matching tool, total reasoning time <5s, WebUI based on Streamlit development, support streaming output and Agent reasoning process visualization
     </div>
   </div>
