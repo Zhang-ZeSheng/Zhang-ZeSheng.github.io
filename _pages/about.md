@@ -458,7 +458,7 @@ summary {
 <div class="award-card">
   <div class="award-name">Provincial First Prize</div>
   <div class="award-meta">
-    AICOMP Object Detection 2025<br>
+    AICOMP Image Classification 2025<br>
     2025 | Team Leader
   </div>
 </div>
