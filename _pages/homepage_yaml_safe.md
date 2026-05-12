@@ -539,43 +539,35 @@ summary {
 
   <div class="award-grid">
     <div class="award-card">
-      <div class="award-name">National Second Prize</div>
-      <div class="award-meta">
-        China Undergraduate Mathematical Contest in Modeling<br>
-        2024 | Team Leader
-      </div>
-    </div>
+  <div class="award-name">National Second Prize</div>
+  <div class="award-meta">
+    AICOMP Object Detection 2025<br>
+    2025 | Team Leader
+  </div>
+</div>
 
-    <div class="award-card">
-      <div class="award-name">National Third Prize</div>
-      <div class="award-meta">
-        International Mathematical Contest in Modeling<br>
-        2025 | Team Leader
-      </div>
-    </div>
+<div class="award-card">
+  <div class="award-name">National Second Prize</div>
+  <div class="award-meta">
+    AICOMP Image Classification 2025<br>
+    2025 | Team Leader
+  </div>
+</div>
 
-    <div class="award-card">
-      <div class="award-name">National Third Prize</div>
-      <div class="award-meta">
-        Belt and Road & BRICS Skills Development and Technology Innovation Competition<br>
-        2025 | Programming Contributor
-      </div>
-    </div>
+<div class="award-card">
+  <div class="award-name">Provincial First Prize</div>
+  <div class="award-meta">
+    AICOMP Object Detection 2025<br>
+    2025 | Team Leader
+  </div>
+</div>
 
-    <div class="award-card">
-      <div class="award-name">Provincial First Prize</div>
-      <div class="award-meta">
-        China Undergraduate Mathematical Contest in Modeling<br>
-        2025 | Team Leader
-      </div>
-    </div>
-
-    <div class="award-card">
-      <div class="award-name">Second Prize</div>
-      <div class="award-meta">
-        Henan Provincial College Student Mathematics Competition<br>
-        2024
-      </div>
-    </div>
+<div class="award-card">
+  <div class="award-name">Provincial First Prize</div>
+  <div class="award-meta">
+    AICOMP Image Classification 2025<br>
+    2025 | Team Leader
+  </div>
+</div>
   </div>
 </div>
