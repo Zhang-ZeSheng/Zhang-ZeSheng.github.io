@@ -521,15 +521,19 @@ summary {
 
   <div class="project-card">
     <div class="project-title">
-      Robustness Analysis and Improvement of ConvNeXt under Real-world Degradation
+      Government Question Answering and Retrieval Agent Based on RAG and React
     </div>
 
     <div class="project-meta">
-      Project Leader &nbsp; | &nbsp; Oct. 2025 - Dec. 2025
+      Project Leader &nbsp; | &nbsp; Oct. 2025 - Jan. 2026
     </div>
 
     <div style="line-height: 1.9; color: #374151;">
-      This project investigates the robustness degradation and high-confidence misclassification of ConvNeXt under real-world corrupted inputs. Based on <strong>ConvNeXt</strong> and <strong>Tiny-ImageNet-200</strong>, I built a hierarchical evaluation protocol covering clean validation, fixed-degradation validation, and degradation-grid testing. The project further introduced degradation augmentation, consistency regularization, sample mixing, and exponential moving average to improve robustness under noise, blur, and JPEG compression.
+      Technology stack: Python / LLM / BGE-base-en/ FAISS / BM25 / Prompt Engineer / ReAct Agent
+·Build RAG knowledge base in government domain, clean and process 1,529 policy texts +7,625 question and answer pairs, generate 30,833 retrieval chunks by multi-strategy segmentation
+·FAISS vector index database is constructed by BGE-base-zh model coding knowledge base, and the inverted keyword index database is constructed. The two-way hybrid retrieval scheme based on cosine similarity (30,000 chunk delay <50ms) and BM25 keyword retrieval (delay <10ms) is adopted, and the problem of insufficient semantic recall of government proper nouns is solved by RRF fusion sorting.
+·System Prompt integrates output format constraints, reference annotation rules and reject fabrication instructions, combined with RAG retrieval constraints to effectively alleviate large model illusion and improve the accuracy and authenticity of Q & A.
+·Design ReAct reasoning Agent, autonomous scheduling policy retrieval and question-answer matching tool, total reasoning time <5s, WebUI based on Streamlit development, support streaming output and Agent reasoning process visualization
     </div>
   </div>
 </div>
