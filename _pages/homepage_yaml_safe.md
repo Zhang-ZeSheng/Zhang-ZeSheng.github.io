@@ -34,7 +34,24 @@ redirect_from:
   color: #111827;
   letter-spacing: -0.02em;
 }
+.award-cert {
+  margin-top: 12px;
+}
 
+.award-cert img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.award-cert img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.10);
+}
 .home-title::before {
   content: attr(data-icon);
   width: 36px;
@@ -548,6 +565,12 @@ summary {
     AICOMP Object Detection 2025<br>
     2025 | Team Leader
   </div>
+
+  <div class="award-cert">
+    <a href="{{ '/images/SAR.jpg' | relative_url }}" target="_blank">
+      <img src="{{ '/images/SAR.jpg' | relative_url }}" alt="Certificate of AICOMP Object Detection 2025">
+    </a>
+  </div>
 </div>
 
 <div class="award-card">
@@ -555,6 +578,12 @@ summary {
   <div class="award-meta">
     AICOMP Image Classification 2025<br>
     2025 | Team Leader
+  </div>
+
+  <div class="award-cert">
+    <a href="{{ '/images/imc.jpg' | relative_url }}" target="_blank">
+      <img src="{{ '/images/imc.jpg' | relative_url }}" alt="Certificate of AICOMP Image Classification 2025">
+    </a>
   </div>
 </div>
 
