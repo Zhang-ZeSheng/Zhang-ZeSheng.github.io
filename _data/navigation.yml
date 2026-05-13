@@ -2,13 +2,13 @@
 main:
 
   - title: "Education"
-    url: /#education
+    url: #education
 
   - title: "Publications"
-    url: /#publications
+    url: #publications
 
   - title: "Research Project"
-    url: /#research-project
+    url: #research-project
 
   - title: "Awards"
-    url: /#awards
+    url: #awards
