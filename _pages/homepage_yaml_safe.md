@@ -492,6 +492,9 @@ summary {
       <summary>Show details</summary>
       <div class="detail-box">
         StructMamba-Seg bridges the gap between generic scan decisions and segmentation-specific structural requirements. Its BCG-DefScan module incorporates local geometry, boundary prompts, and multi-scale context to jointly predict spatial offsets, local ordering offsets, and gating signals. The framework also introduces an IoU-boundary joint optimization objective to improve regional consistency and boundary details during training.
+        <div class="pub-figure">
+    <img src="{{ '/images/StructMamba.jpg' | relative_url }}" alt="Experiment Seg">
+  </div>
       </div>
     </details>
   </div>
@@ -531,6 +534,9 @@ summary {
       <summary>Show details</summary>
       <div class="detail-box">
         PDAO-Net initializes reconstruction in both the image and projection domains using a pre-trained restoration network and forward projection. It unfolds the reconstruction process into an N-stage alternating optimization framework, where corrected projections and refined volumes mutually constrain each other. A measured-view replacement mechanism preserves acquired sparse-view measurements during missing-view projection estimation.
+        <div class="pub-figure">
+    <img src="{{ '/images/PDAO.jpg' | relative_url }}" alt="Experiment On COSTA">
+  </div>
       </div>
     </details>
   </div>
