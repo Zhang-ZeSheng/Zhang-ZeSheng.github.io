@@ -449,6 +449,9 @@ summary {
     <summary>Show details</summary>
     <div class="detail-box">
       GSPNet addresses illumination degradation, chromatic distortion, and dark-region noise in remote sensing images. It decouples brightness restoration from color recovery in the HVI space, injects semantic and geometric priors from frozen vision foundation models, and uses adaptive sparse refinement to suppress unreliable feature interactions while preserving land-cover structures.
+       <div class="pub-figure">
+    <img src="{{ '/images/Figure1.jpg' | relative_url }}" alt="Experiment On iSAID-darks">
+  </div>
     </div>
   </details>
 </div>
