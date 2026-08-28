@@ -517,7 +517,7 @@ summary {
   </div>
 
   <div class="pub-venue">
-    <em>(请替换为目标期刊名称，如 IEEE Transactions on...)</em> (Under review)<br>
+    <em>IEEE Transactions on Mobile Computing</em> (Under review)<br>
     <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CAS Q1 Top | CCF-A | IF: 8.8 </span>
   </div>
 
