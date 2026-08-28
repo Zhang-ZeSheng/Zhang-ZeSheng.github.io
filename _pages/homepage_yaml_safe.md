@@ -451,7 +451,7 @@ summary {
 
       <div>
         <div class="edu-name">Anhui University of Science and Technology</div>
-        <div class="edu-meta">B.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2023 – Present</div>
+        <div class="edu-meta">B.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2023 – 2027</div>
       </div>
     </div>
 
@@ -472,6 +472,35 @@ summary {
       </div>
     </div>
   </div>
+
+  <div class="info-card soft">
+    <div class="edu-head">
+      <img class="edu-logo" src="{{ '/images/SE.png' | relative_url }}" alt="Southeast University" width="76" height="76" loading="lazy" decoding="async">
+
+      <div>
+        <div class="edu-name">Southeast University</div>
+        <div class="edu-meta">M.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2027 – 2030</div>
+      </div>
+    </div>
+
+    <div class="edu-grid">
+      <div class="edu-item">
+        <strong>GPA</strong><br>
+        4.36 / 5.00
+      </div>
+
+      <div class="edu-item">
+        <strong>Ranking</strong><br>
+        1 / 157, top 1%
+      </div>
+
+      <div class="edu-item">
+        <strong>English</strong><br>
+        CET-4
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <!-- Publications Section -->
