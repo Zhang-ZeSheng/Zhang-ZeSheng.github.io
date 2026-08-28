@@ -703,7 +703,7 @@ summary {
   </div>
 
   <div class="pub-venue">
-    <em>Mathematical Modeling and Algorithm Application, Vol. 5, No. 2, 2025</em><br><!--[cite: 4] -->
+    <em>Mathematical Modeling and Algorithm Application</em><br><!--[cite: 4] -->
     <span class="pub-status">Journal Article</span>
   </div>
 
@@ -809,7 +809,7 @@ summary {
   <div class="award-cert">
     <!-- 图片路径已替换为您提供的文件名 -->
     <a href="{{ '/images/Asia and Pacific Mathmatical Contest in Modeling_1.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View 2024 APMCM Third Prize certificate">
-      <img src="{{ '/images/Asia and Pacific Mathmatical Contest in Modeling_1.jpg' | relative_url }}" alt="Certificate of APMCM Third Prize" width="1200" height="850" loading="lazy" decoding="async">
+      <img src="{{ '/images/Asia and Pacific Mathmatical Contest in Modeling_1.png' | relative_url }}" alt="Certificate of APMCM Third Prize" width="1200" height="850" loading="lazy" decoding="async">
     </a>
     <span class="view-hint">View certificate</span>
   </div>
