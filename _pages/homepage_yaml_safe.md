@@ -376,12 +376,6 @@ summary {
     <span class="tag">Reinforcement Learning</span>
   </div>
 
-  <div class="action-row">
-    <a class="action-btn" href="https://orcid.org/0009-0007-9358-9086">ORCID</a>
-    <a class="action-btn" href="https://github.com/Zhang-ZeSheng">GitHub</a>
-  </div>
-</div>
-
 <div class="home-section" id="education">
   <div class="home-title" data-icon="🎓">Education</div>
 
@@ -650,10 +644,16 @@ summary {
 
 
 <div class="award-card">
-  <div class="award-name">Provincial First Prize</div>
+  <div class="award-name">Honorable Mention</div>
   <div class="award-meta">
-    AICOMP Object Detection 2025<br>
-    2025 | Team Leader
+    Mathematical Contest in Modeling (MCM/ICM)<br>
+    2026 | Team Leader
+  </div>
+
+  <div class="award-cert">
+    <a href="{{ '/images/MCM_Honorable_Mention.png' | relative_url }}" target="_blank">
+      <img src="{{ '/images/MCM_Honorable_Mention.png' | relative_url }}" alt="Certificate of MCM/ICM Honorable Mention">
+    </a>
   </div>
 </div>
 
