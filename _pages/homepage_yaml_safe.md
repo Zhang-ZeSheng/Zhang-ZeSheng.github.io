@@ -578,7 +578,7 @@ summary {
 
     <div class="pub-venue">
       <em>IEEE Transactions on Mobile Computing</em> (Under review)<br>
-      <span class="pub-status muted">CAS Q1 Top · CCF-A</span>
+      <span class="pub-status muted">CAS Q1 Top · CCF-A · IF: 8.8</span>
     </div>
 
     <div class="pub-short">
@@ -646,6 +646,56 @@ summary {
       </div>
     </details>
   </div>
+
+
+  <div class="pub-card rs">
+  <div class="pub-label rs">Evolutionary Computation · Numerical Optimization</div>
+
+  <h3 class="pub-title">
+    High-Precision Numerical Optimization via ISSA: Manifold Weighting and Heavy-tailed Mutation
+  </h3>
+
+  <div class="pub-authors">
+    <strong>Zesheng Zhang*</strong>, Kaiyuan Zheng, and Kang Yang
+  </div>
+
+  <div class="pub-venue">
+    <em>2026 9th International Conference on Advanced Algorithms and Control Engineering (ICAACE)</em><br>
+    <span class="pub-status">EI</span>
+  </div>
+
+  <div class="pub-short">
+    An Improved Sparrow Search Algorithm (ISSA) that integrates a <strong>Sigmoid-based manifold weight</strong>, Lévy flight strategy, and Cauchy mutation to overcome premature convergence and achieve extreme optimization precision.
+  </div>
+
+  <!-- 👇 修改为直接跳转至 IEEE Xplore 的按钮 👇 -->
+  <div class="action-row" style="margin-top: 12px; margin-bottom: 16px;">
+    <a href="https://doi.org/10.1109/ICAACE69793.2026.11508895" target="_blank" class="action-btn">
+      🔗 IEEE Xplore
+    </a>
+  </div>
+
+  <div class="pub-figure">
+    <img src="{{ '/images/ISSA_framework.png' | relative_url }}" alt="Flowchart of the ISSA" width="1800" height="885" loading="lazy" decoding="async">
+  </div>
+
+  <div class="metric-row">
+    <span class="metric">Sigmoid Manifold Weight</span>
+    <span class="metric">Lévy Flight Strategy</span>
+    <span class="metric">Cauchy Mutation</span>
+  </div>
+
+  <details>
+    <summary>Read more</summary>
+    <div class="detail-box">
+      ISSA mitigates the limitations of standard SSA (premature convergence and loss of population diversity) in high-dimensional optimization tasks. By integrating Ergodic Refractive Mapping (ERM) initialization, Sigmoid-based adaptive manifold weights, Lévy flight, and Cauchy mutation, the algorithm dynamically balances global exploration and local exploitation. Statistical evaluation across 12 benchmark functions demonstrates that ISSA achieves extreme convergence precision up to $10^{-124}$, significantly outperforming standard SSA, PSO, GA, and SA in complex numerical optimization environments.
+      <div class="pub-figure">
+        <img src="{{ '/images/ISSA_Experiment.png' | relative_url }}" alt="Convergence Analysis on Benchmark Functions" width="1200" height="1088" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </details>
+</div>
+
 </div>
 
 <!-- Awards Section -->
