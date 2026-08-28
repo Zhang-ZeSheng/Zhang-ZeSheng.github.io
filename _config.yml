@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Kang Yang"
+title                    : "Zesheng Zhang"
 description              : ""
-repository               : "ykang0478-ai/kangyang.github.io"
+repository               : "Zhang-ZeSheng/Zhang-ZeSheng.github.io.git"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,23 +21,23 @@ baidu_site_verification  :
 
 # Site Author
 author:
-  name             : "Kang Yang"
+  name             : "Zesheng Zhang"
   avatar           : "images/you.jpg"
   bio              : "Undergraduate Student in Computer Science and Technology"
   location         : "Huainan , China"
   employer         : "Anhui University of Science <br>and Technology"
   pubmed           :
   googlescholar    :
-  email            : "2793307248@qq.com"
+  email            : "zesheng_zhang@163.com"
   researchgate     :
-  uri              : "https://ykang0478-ai.github.io/"
+  uri              : "https://Zhang-ZeSheng.github.io/"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ykang0478-ai"
+  github           : "Zhang-ZeSheng"
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         :
   dblp             :
-  orcid            : "https://orcid.org/0009-0008-6095-0792"
+  orcid            : "https://orcid.org/0009-0007-9358-9086"
   pinterest        :
   soundcloud       :
   stackoverflow    :
