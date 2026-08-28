@@ -614,7 +614,7 @@ summary {
 
     <div class="pub-venue">
       <em>International Conference on Neural Information Processing (ICONIP), Melbourne, Australia, 2026</em><br>
-      <span class="pub-status">CCF-C</span>
+      <span class="pub-status">Conference paper · EI · CCF-C</span>
     </div>
 
     <div class="pub-short">
@@ -656,7 +656,7 @@ summary {
 
   <div class="pub-venue">
     <em>2026 9th International Conference on Advanced Algorithms and Control Engineering (ICAACE)</em><br>
-    <span class="pub-status">EI</span>
+    <span class="pub-status">Conference paper · EI</span>
   </div>
 
   <div class="pub-short">
@@ -668,6 +668,20 @@ summary {
     <a href="https://doi.org/10.1109/ICAACE69793.2026.11508895" target="_blank" class="action-btn">
       🔗 IEEE Xplore
     </a>
+
+    <a href="javascript:void(0)" class="action-btn" onclick="navigator.clipboard.writeText(this.dataset.bibtex); const originalText = this.innerText; this.innerText='✅ Copied!'; setTimeout(() => this.innerText=originalText, 2000);" data-bibtex="@INPROCEEDINGS{11508895,
+  author={Zhang, Zesheng and Zheng, Kaiyuan and Yang, Kang},
+  booktitle={2026 9th International Conference on Advanced Algorithms and Control Engineering (ICAACE)}, 
+  title={High-Precision Numerical Optimization via ISSA: Manifold Weighting and Heavy-Tailed Mutation}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1767-1771},
+  keywords={Optimization;Algorithms;Equations;Convergence;Modeling;Printing;Tagging;Standards;Tail;Manifolds;Sparrow Search Algorithm (SSA);Sigmoid Weight;Lévy Flight;Cauchy Mutation;Numerical Optimization},
+  doi={10.1109/ICAACE69793.2026.11508895}}">
+      📝 BibTeX
+    </a>
+
   </div>
 
   <div class="pub-figure">
@@ -716,6 +730,11 @@ summary {
     <a href="https://doi.org/10.54097/bvjpmf68" target="_blank" class="action-btn">
       🔗 Publisher
     </a>
+
+    <a href="javascript:void(0)" class="action-btn" onclick="navigator.clipboard.writeText(this.dataset.bibtex); const originalText = this.innerText; this.innerText='✅ Copied!'; setTimeout(() => this.innerText=originalText, 2000);" data-bibtex="@article{Zhang_2025, title={Research on Relocation Compensation and Whole Hospital Optimization Decision of Old Town Based on Particle Swarm Optimization Algorithm}, volume={5}, url={https://drpress.org/ojs/index.php/mmaa/article/view/31393}, DOI={10.54097/bvjpmf68},number={2}, journal={Mathematical Modeling and Algorithm Application}, author={Zhang, Zesheng}, year={2025}, month={Jun.}, pages={41–46} }">
+      📝 BibTeX
+    </a>
+
   </div>
 
   <div class="metric-row">
@@ -788,7 +807,7 @@ summary {
       <h3 class="award-name">National Second Prize</h3>
       <div class="award-meta">
         RoboCom Robot Developer Competition<br>
-        2026 | Team Leader
+        2025 | Team Leader
       </div>
 
       <div class="award-cert">
