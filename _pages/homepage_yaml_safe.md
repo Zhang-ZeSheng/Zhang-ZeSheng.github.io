@@ -408,7 +408,7 @@ summary {
 
       <div class="edu-item">
         <strong>English</strong><br>
-        CET-4, CET-6
+        CET-4
       </div>
     </div>
   </div>
@@ -428,7 +428,7 @@ summary {
   </div>
 
   <div class="pub-venue">
-    Submitted to International Conference on Neural Information Processing (ICONIP), 2026
+    International Conference on Neural Information Processing (ICONIP), 2026
   </div>
 
   <div class="pub-short">
