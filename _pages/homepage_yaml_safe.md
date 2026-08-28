@@ -456,7 +456,7 @@ summary {
       EFSARE addresses the challenges of high-dimensional individual representation and slow search efficiency in evolutionary computation. It introduces a novel encoding scheme where each individual corresponds to a single feature and the population collectively represents the entire feature space. Guided by reinforcement learning (Q-learning) and historical age information, it adaptively switches between feature reduction and expansion. Comprehensive experiments on 22 high-dimensional public datasets and 2 gene engineering datasets demonstrate that it achieves state-of-the-art performance in terms of average classification accuracy, number of selected features, and computational time.
        <div class="pub-figure">
         <!-- 可以在这里放图表，比如 22 个数据集的实验对比图 -->
-        <img src="{{ '/images/EFSARE_Experiment.jpg' | relative_url }}" alt="Experiments on 22 High-dimensional Datasets">
+        <img src="{{ '/images/EFSARE_Encode.png' | relative_url }}" alt="Experiments on 22 High-dimensional Datasets">
       </div>
     </div>
   </details>
