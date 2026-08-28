@@ -430,6 +430,10 @@ summary {
      I am <strong>Zesheng Zhang</strong>, an undergraduate student majoring in <strong>Artificial Intelligence</strong> at <strong>Anhui University of Science and Technology</strong>. My research interests lie in <strong>Evolutionary Computation</strong>, <strong>Intelligent Optimization</strong>, <strong>Data Mining</strong>, <strong>Machine Learning</strong>, <strong>Reinforcement Learning</strong> and <strong>Pattern Recognition</strong>. I aim to refine the mathematical theory of evolutionary computation using fundamental mathematical principles and to use this framework to explain the field, thereby thoroughly breaking open the "black box" of artificial intelligence and achieving explainable AI.
   </div>
 
+  <div style="margin-top: 16px; margin-bottom: 4px;">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2FZhang-ZeSheng.github.io&count_bg=%232563EB&title_bg=%23555555&title=Page+Views&edge_flat=true" alt="Page Views">
+  </div>
+
   <div class="tag-row">
     <span class="tag">Evolutionary Computation</span>
     <span class="tag">Data Mining</span>
