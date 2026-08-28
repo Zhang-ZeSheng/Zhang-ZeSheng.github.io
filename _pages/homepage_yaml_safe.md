@@ -541,7 +541,7 @@ summary {
     <div class="detail-box">
       WQAD-RIME addresses the limitations of existing metaheuristic trajectory planners, such as poor population initialization and premature convergence, in high-dimensional nonconvex spaces. It utilizes a Weierstrass-harmonic initialization module for diverse dispersion, a quotient-based dynamic equilibrium for exploration-exploitation balance, an adaptive bidirectional rime-drift strategy to accelerate local refinement, and a dynamic centroid-based reverse-learning mechanism to improve search diversity. Extensive experiments on 42 high-dimensional benchmark functions and real-world multi-UAV scenarios demonstrate that it effectively shortens total flight trajectories and reduces associated operational costs.
        <div class="pub-figure">
-        <img src="{{ '/images/WQAD_Experiment.jpg' | relative_url }}" alt="Experiments on Multi-UAV Trajectory Planning">
+        <img src="{{ '/images/WQAD_Experiment.pdf' | relative_url }}" alt="Experiments on Multi-UAV Trajectory Planning">
       </div>
     </div>
   </details>
