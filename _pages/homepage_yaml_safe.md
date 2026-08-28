@@ -481,6 +481,18 @@ summary {
 
   </div>
 
+  <div class="info-card soft">
+    <div class="edu-head">
+      <img class="edu-logo" src="{{ '/images/NY.jpg' | relative_url }}" alt="Nanyang Technological University" width="76" height="76" loading="lazy" decoding="async">
+
+      <div>
+        <div class="edu-name">Nanyang Technological University</div>
+        <div class="edu-meta">Ph.D. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2030 – Jun. 2032</div>
+      </div>
+    </div>
+
+  </div>
+
 </div>
 
 <!-- Publications Section -->
