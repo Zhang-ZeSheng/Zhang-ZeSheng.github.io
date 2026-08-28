@@ -617,15 +617,19 @@ summary {
   </div>
 </div>
 
-<!-- 👇 JavaScript for Scrollspy (导航栏随滚动高亮) 👇 -->
+<!-- 👇 终极版 JavaScript：处理滑动高亮与点击平滑跳转 👇 -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+  // 1. 获取所有带有 ID 的正文板块
   const sections = document.querySelectorAll('.home-section, .bio-card');
-  const navLinks = document.querySelectorAll('a[href^="#"]'); 
+  
+  // 2. 暴力获取所有可能跳转到这几个板块的导航链接（模糊匹配）
+  const navLinks = document.querySelectorAll('a[href*="#about"], a[href*="#education"], a[href*="#publications"], a[href*="#awards"]');
 
+  // 3. --- 处理滑动高亮逻辑 ---
   const observerOptions = {
     root: null,
-    rootMargin: '-40% 0px -60% 0px', 
+    rootMargin: '-30% 0px -70% 0px', 
     threshold: 0
   };
 
@@ -633,9 +637,11 @@ document.addEventListener("DOMContentLoaded", function() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const currentId = entry.target.getAttribute('id');
+        
         navLinks.forEach(link => {
           link.classList.remove('active');
-          if (currentId && link.getAttribute('href') === '#' + currentId) {
+          // 使用 link.hash 获取真实的锚点后缀，无视前面的域名和斜杠
+          if (currentId && link.hash === '#' + currentId) {
             link.classList.add('active');
           }
         });
@@ -648,5 +654,31 @@ document.addEventListener("DOMContentLoaded", function() {
       observer.observe(section);
     }
   });
+
+  // 4. --- 处理点击平滑跳转逻辑（接管浏览器的默认跳转） ---
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      if (this.hash !== "") {
+        // 阻止浏览器的默认瞬间跳转（或刷新）行为
+        e.preventDefault(); 
+
+        // 找到目标板块
+        const targetId = this.hash.substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          // 计算目标位置，减去 80 像素的高度（防止导航栏遮挡标题）
+          const topPosition = targetElement.getBoundingClientRect().top + window.scrollY - 80;
+          
+          // 强制平滑滚动
+          window.scrollTo({
+            top: topPosition,
+            behavior: 'smooth'
+          });
+        }
+      }
+    });
+  });
 });
 </script>
+<!-- 👆 终极版 JavaScript 结束 👆 -->
