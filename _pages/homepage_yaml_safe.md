@@ -428,7 +428,7 @@ summary {
   </div>
 
   <div class="pub-venue">
-    International Conference on Neural Information Processing (ICONIP), 2026
+    International Conference on Neural Information Processing (ICONIP), Melbourne, Australia, 2026
   </div>
 
   <div class="pub-short">
