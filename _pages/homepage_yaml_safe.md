@@ -800,10 +800,10 @@ summary {
     </div>
 
     <div class="award-card">
-  <h3 class="award-name">Third Prize</h3>
+  <h3 class="award-name">National Third Prize</h3>
   <div class="award-meta">
     Asia and Pacific Mathematical Contest in Modeling (APMCM)<br>
-    2024 | Postgraduate Group
+    2024 | Team Leader
   </div>
 
   <div class="award-cert">
