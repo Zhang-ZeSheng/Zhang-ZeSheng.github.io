@@ -364,20 +364,21 @@ summary {
 
 <div class="bio-card" id="about">
   <div class="bio-main">
-   I am <strong>Kang Yang</strong>, an undergraduate student majoring in <strong>Computer Science and Technology</strong> at <strong>Anhui University of Science and Technology</strong>. My research interests lie in <strong>low-light image enhancement</strong>, <strong>remote sensing image restoration</strong>, and <strong>computational imaging</strong>. I aim to develop reliable deep learning methods for enhancing degraded visual content while preserving structural details, semantic consistency, and perceptual quality.
+   I am <strong>Zesheng Zhang</strong>, an undergraduate student majoring in <strong>Artificial Intelligence</strong> at <strong>Anhui University of Science and Technology</strong>. My research interests lie in <strong>Evolutionary Computation</strong>, <strong>Intelligent Optimization</strong>, <strong>Data Mining</strong>, <strong>Machine Learning</strong>, <strong>Reinforcement Learning</strong> and <strong>Pattern Recognition</strong>. I aim to refine the mathematical theory of evolutionary computation using fundamental mathematical principles and to use this framework to explain the field, thereby thoroughly breaking open the "black box" of artificial intelligence and achieving explainable AI.
   </div>
 
   <div class="tag-row">
-    <span class="tag">Computer Vision</span>
-    <span class="tag">Image Enhancement</span>
+    <span class="tag">Evolutionary Computation</span>
+    <span class="tag">Data Mining</span>
+    <span class="tag">Pattern Recognition</span>
     <span class="tag">Artificial Intelligence</span>
-    <span class="tag">Multimodal Learning</span>
-    <span class="tag">Deep Learning</span>
+    <span class="tag">Machine Learning</span>
+    <span class="tag">Reinforcement Learning</span>
   </div>
 
   <div class="action-row">
-    <a class="action-btn" href="https://orcid.org/0009-0008-6095-0792">ORCID</a>
-    <a class="action-btn" href="https://github.com/ykang0478-ai">GitHub</a>
+    <a class="action-btn" href="https://orcid.org/0009-0007-9358-9086">ORCID</a>
+    <a class="action-btn" href="https://github.com/Zhang-ZeSheng">GitHub</a>
   </div>
 </div>
 
@@ -390,19 +391,19 @@ summary {
 
       <div>
         <div class="edu-name">Anhui University of Science and Technology</div>
-        <div class="edu-meta">B.Eng. in Computer Science and Technology &nbsp; | &nbsp; Sep. 2023 - Present</div>
+        <div class="edu-meta">B.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2023 - Present</div>
       </div>
     </div>
 
     <div class="edu-grid">
       <div class="edu-item">
         <strong>GPA</strong><br>
-        4.20 / 5.00
+        4.36 / 5.00
       </div>
 
       <div class="edu-item">
         <strong>Ranking</strong><br>
-        12/ 402, top 3%
+        1/ 157, top 1%
       </div>
 
       <div class="edu-item">
