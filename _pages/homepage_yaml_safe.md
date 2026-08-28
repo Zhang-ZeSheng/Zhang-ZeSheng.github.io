@@ -505,6 +505,47 @@ summary {
   </details>
 </div>
 
+<div class="pub-card rs">
+  <div class="pub-label rs">Evolutionary Computation · Multi-UAV Trajectory Planning · LAE</div>
+
+  <div class="pub-title">
+    WQAD-RIME: A Convergence-Enhanced Metaheuristic Framework for Multi-UAV Trajectory Planning in Low-Altitude Mobile Environments
+  </div>
+
+  <div class="pub-authors">
+    Kaiyuan Zheng, Xiangyu Li, Yiming Huang, Liu Zhang, Wei Deng, <strong>Zesheng Zhang</strong>, and Xiong Wang*
+  </div>
+
+  <div class="pub-venue">
+    <em>(请替换为目标期刊名称，如 IEEE Transactions on...)</em> (Under review)<br>
+    <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CAS Q1 Top | CCF-A | IF: 8.8 </span>
+  </div>
+
+  <div class="pub-short">
+    A convergence-enhanced evolutionary framework (WQAD-RIME) that incorporates <strong>four complementary mechanisms (WHI, QDE, ABRD, DCRL)</strong> to address high-dimensional, nonconvex multi-UAV trajectory planning in low-altitude environments.
+  </div>
+
+  <!-- Pipeline Figure -->
+  <div class="pub-figure">
+    <img src="{{ '/images/WQAD_framework.pdf' | relative_url }}" alt="Overall framework of WQAD">
+  </div>
+
+  <div class="metric-row">
+    <span class="metric">Weierstrass-Harmonic Initialization</span>
+    <span class="metric">Adaptive Bidirectional Drift</span>
+    <span class="metric">Dynamic Centroid Learning</span>
+  </div>
+
+  <details>
+    <summary>Show details</summary>
+    <div class="detail-box">
+      WQAD-RIME addresses the limitations of existing metaheuristic trajectory planners, such as poor population initialization and premature convergence, in high-dimensional nonconvex spaces. It utilizes a Weierstrass-harmonic initialization module for diverse dispersion, a quotient-based dynamic equilibrium for exploration-exploitation balance, an adaptive bidirectional rime-drift strategy to accelerate local refinement, and a dynamic centroid-based reverse-learning mechanism to improve search diversity. Extensive experiments on 42 high-dimensional benchmark functions and real-world multi-UAV scenarios demonstrate that it effectively shortens total flight trajectories and reduces associated operational costs.
+       <div class="pub-figure">
+        <img src="{{ '/images/WQAD_Experiment.jpg' | relative_url }}" alt="Experiments on Multi-UAV Trajectory Planning">
+      </div>
+    </div>
+  </details>
+</div>
 
 <div class="pub-card rs">
   <div class="pub-label rs">Remote Sensing · Low-light Enhancement</div>
