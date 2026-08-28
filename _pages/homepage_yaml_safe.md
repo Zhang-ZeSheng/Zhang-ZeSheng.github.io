@@ -447,6 +447,18 @@ summary {
 
   <div class="info-card soft">
     <div class="edu-head">
+      <img class="edu-logo" src="{{ '/images/QJ.jpg' | relative_url }}" alt="Anhui Quanjiao Middle School" width="76" height="76" loading="lazy" decoding="async">
+
+      <div>
+        <div class="edu-name">Anhui Quanjiao Middle School</div>
+        <div class="edu-meta">B.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2019 – Jun. 2023</div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="info-card soft">
+    <div class="edu-head">
       <img class="edu-logo" src="{{ '/images/aust-logo.png' | relative_url }}" alt="Anhui University of Science and Technology" width="76" height="76" loading="lazy" decoding="async">
 
       <div>
