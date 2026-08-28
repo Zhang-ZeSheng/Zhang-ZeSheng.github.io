@@ -463,6 +463,48 @@ summary {
 </div>
 
 
+<div class="pub-card rs">
+  <div class="pub-label rs">Evolutionary Computation · Feature Selection · IIoT</div>
+
+  <div class="pub-title">
+    Evolutionary Feature Selection via Cosine Similarity Initialization and Manifold Contracting for Sparse IIoT Data
+  </div>
+
+  <div class="pub-authors">
+    <strong>Zesheng Zhang</strong>, Shoufei Han*, Xiaojing Liu, Yongbiao Gao*, Kun Zhu, Zhi Liu, and Liang Zhao
+  </div>
+
+  <div class="pub-venue">
+    <em>IEEE Internet of Things Journal</em> <br>
+    <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CAS Q1 Top | CCF-C | IF: 8.9</span>
+  </div>
+
+  <div class="pub-short">
+    An innovative framework termed Adaptive Decision Space Contraction (ADSC) that combines a <strong>Cosine Similarity Initialization Method (CSIM)</strong> and a dynamically contracting manifold system to address high-dimensional sparse IIoT data.
+  </div>
+
+  <!-- Pipeline Figure -->
+  <div class="pub-figure">
+    <img src="{{ '/images/ADSC_frame.png' | relative_url }}" alt="Overall framework of the ADSC">
+  </div>
+
+  <div class="metric-row">
+    <span class="metric">Cosine Similarity Initialization</span>
+    <span class="metric">Adaptive Space Contraction</span>
+    <span class="metric">Sparse IIoT Data</span>
+  </div>
+
+  <details>
+    <summary>Show details</summary>
+    <div class="detail-box">
+      ADSC addresses the challenges of uneven initial population distribution and redundant features in high-dimensional industrial data. It introduces a Cosine Similarity Initialization Method (CSIM) to ensure a highly diverse initial population by measuring the angles between solution vectors. Furthermore, it employs a greedy strategy to transform the static feature search space into a dynamically contracting manifold system, achieving an exponential reduction in the decision space. Comprehensive experiments on representative real-world industrial datasets (SECOM and TEP) and 12 high-dimensional benchmark datasets demonstrate that ADSC achieves top-tier performance across classification accuracy, feature subset size, and computational efficiency.
+       <div class="pub-figure">
+        <img src="{{ '/images/ADSC_Experiment.jpg' | relative_url }}" alt="Experiments on Industrial and Benchmark Datasets">
+      </div>
+    </div>
+  </details>
+</div>
+
 
 <div class="pub-card rs">
   <div class="pub-label rs">Remote Sensing · Low-light Enhancement</div>
@@ -507,90 +549,6 @@ summary {
 </div>
 
 
-
-
-  <div class="pub-card seg">
-    <div class="pub-label seg">Semantic Segmentation · Mamba</div>
-
-    <div class="pub-title">
-      StructMamba-Seg: Boundary-Context Guided Deformable Scan for Semantic Segmentation
-    </div>
-
-    <div class="pub-authors">
-     Longfei Xiao, Linlin Zhang,  <strong>Kang Yang</strong>, Changqiu Xu, Shuyu Liu, Jianfang Wang
-    </div>
-
-    <div class="pub-venue">
-      Submitted to International Conference on Neural Information Processing (ICONIP), 2026
-    </div>
-
-    <div class="pub-short">
-      A structure-sensitive Mamba-based semantic segmentation framework that introduces <strong>Boundary-Context Guided Deformable Scan</strong> to adapt scan control to boundaries, small objects, thin structures, and ambiguous regions.
-    </div>
-
- <div class="pub-figure">
-    <img src="{{ '/images/Pipline2.png' | relative_url }}" alt="Pipeline of StructMamba">
-  </div>
-
-    <div class="metric-row">
-      <span class="metric">Cityscapes: 82.12% mIoU</span>
-      <span class="metric">ADE20K: 50.20% mIoU</span>
-      <span class="metric">Boundary-aware Optimization</span>
-    </div>
-
-    <details>
-      <summary>Show details</summary>
-      <div class="detail-box">
-        StructMamba-Seg bridges the gap between generic scan decisions and segmentation-specific structural requirements. Its BCG-DefScan module incorporates local geometry, boundary prompts, and multi-scale context to jointly predict spatial offsets, local ordering offsets, and gating signals. The framework also introduces an IoU-boundary joint optimization objective to improve regional consistency and boundary details during training.
-        <div class="pub-figure">
-    <img src="{{ '/images/StructMamba.jpg' | relative_url }}" alt="Experiment Seg">
-  </div>
-      </div>
-    </details>
-  </div>
-
- 
-
-  <div class="pub-card med">
-    <div class="pub-label med">Medical Imaging · 3D Reconstruction</div>
-
-    <div class="pub-title">
-      PDAO-Net: A Physics-Constrained Dual-Domain Alternating Optimization Network for Sparse-View 3D-DSA Reconstruction
-    </div>
-
-    <div class="pub-authors">
-      Changqiu Xu, Xi Wang, Yujia Li, Tong Liang, <strong>Kang Yang</strong>, Longfei Xiao, Yikun Zhang, Yang Chen
-    </div>
-
-    <div class="pub-venue">
-      Submitted to International Conference on Neural Information Processing (ICONIP), 2026
-    </div>
-
-    <div class="pub-short">
-      A physics-constrained reconstruction framework for sparse-view 3D-DSA that alternates between <strong>projection-domain correction</strong> and <strong>image-domain refinement</strong>.
-    </div>
-
- <div class="pub-figure">
-    <img src="{{ '/images/Pipline3.jpg' | relative_url }}" alt="Pipeline of PDAO-Net">
-  </div>
-
-    <div class="metric-row">
-      <span class="metric">Dual-domain Optimization</span>
-      <span class="metric">Measured-view Consistency</span>
-      <span class="metric">Vascular Recovery</span>
-    </div>
-
-    <details>
-      <summary>Show details</summary>
-      <div class="detail-box">
-        PDAO-Net initializes reconstruction in both the image and projection domains using a pre-trained restoration network and forward projection. It unfolds the reconstruction process into an N-stage alternating optimization framework, where corrected projections and refined volumes mutually constrain each other. A measured-view replacement mechanism preserves acquired sparse-view measurements during missing-view projection estimation.
-        <div class="pub-figure">
-    <img src="{{ '/images/PDAO.jpg' | relative_url }}" alt="Experiment On COSTA">
-  </div>
-      </div>
-    </details>
-  </div>
-</div>
 
 <div class="home-section" id="research-project">
   <div class="home-title" data-icon="🔬">Research Project</div>
