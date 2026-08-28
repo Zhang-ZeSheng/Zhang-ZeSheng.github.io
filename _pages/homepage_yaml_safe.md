@@ -8,15 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-
 <style>
-/* 👇 加上这一段开启平滑滚动 👇 */
+/* 👇 全局平滑滚动 👇 */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 80px; 
 }
-/* 👆 ======================= 👆 */
 
+/* 👇 导航栏高亮联动样式 👇 */
+a[href^="#"] {
+  transition: all 0.3s ease;
+}
+a[href^="#"].active {
+  color: #2563eb !important;
+  font-weight: 800 !important;
+  border-bottom: 2px solid #2563eb; 
+  padding-bottom: 2px;
+}
+
+/* 👇 页面元素样式 👇 */
 .home-section {
   margin: 34px 0 44px 0;
 }
@@ -24,17 +34,6 @@ html {
   margin: 16px 0 14px;
   text-align: center;
 }
-
-
-<style>
-.home-section {
-  margin: 34px 0 44px 0;
-}
-.pub-figure {
-  margin: 16px 0 14px;
-  text-align: center;
-}
-
 .pub-figure img {
   width: 100%;
   max-width: 850px;
@@ -55,7 +54,6 @@ html {
 .award-cert {
   margin-top: 12px;
 }
-
 .award-cert img {
   width: 100%;
   max-height: 220px;
@@ -65,7 +63,6 @@ html {
   box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
 .award-cert img:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 18px rgba(15, 23, 42, 0.10);
@@ -84,7 +81,6 @@ html {
   font-size: 1.05rem;
   flex: 0 0 auto;
 }
-
 .home-title::after {
   content: "";
   height: 1px;
@@ -92,7 +88,6 @@ html {
   background: linear-gradient(90deg, #e5e7eb 0%, rgba(229, 231, 235, 0) 100%);
   margin-left: 4px;
 }
-
 .bio-card {
   border: 1px solid #e5e7eb;
   border-radius: 18px;
@@ -101,20 +96,17 @@ html {
   box-shadow: 0 8px 22px rgba(15, 23, 42, 0.05);
   margin-bottom: 30px;
 }
-
 .bio-main {
   font-size: 1.08rem;
   line-height: 1.9;
   color: #374151;
 }
-
 .tag-row {
   margin-top: 18px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-
 .tag {
   display: inline-block;
   padding: 7px 13px;
@@ -125,14 +117,12 @@ html {
   font-weight: 650;
   border: 1px solid #e0e7ff;
 }
-
 .action-row {
   margin-top: 22px;
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
 }
-
 .action-btn {
   display: inline-block;
   padding: 9px 15px;
@@ -145,7 +135,6 @@ html {
   color: #374151 !important;
   box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
 }
-
 .info-card {
   border: 1px solid #e5e7eb;
   border-radius: 16px;
@@ -153,18 +142,15 @@ html {
   background: #ffffff;
   box-shadow: 0 6px 18px rgba(15, 23, 42, 0.04);
 }
-
 .info-card.soft {
   background: #fafafa;
 }
-
 .edu-head {
   display: flex;
   align-items: center;
   gap: 18px;
   flex-wrap: wrap;
 }
-
 .edu-logo {
   width: 76px;
   height: 76px;
@@ -175,34 +161,29 @@ html {
   border: 1px solid #e5e7eb;
   box-shadow: 0 3px 10px rgba(15, 23, 42, 0.06);
 }
-
 .edu-name {
   font-size: 1.18rem;
   font-weight: 800;
   color: #111827;
   margin-bottom: 6px;
 }
-
 .edu-meta {
   color: #4b5563;
   margin-bottom: 14px;
   font-size: 0.98rem;
 }
-
 .edu-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 12px;
   margin-top: 18px;
 }
-
 .edu-item {
   padding: 12px 14px;
   border-radius: 12px;
   background: #f8fafc;
   border: 1px solid #eef2f7;
 }
-
 .pub-card {
   border-radius: 18px;
   padding: 24px 28px;
@@ -213,7 +194,6 @@ html {
   position: relative;
   overflow: hidden;
 }
-
 .pub-card::before {
   content: "";
   position: absolute;
@@ -222,19 +202,15 @@ html {
   width: 6px;
   height: 100%;
 }
-
 .pub-card.seg::before {
   background: #4f46e5;
 }
-
 .pub-card.rs::before {
   background: #0ea5e9;
 }
-
 .pub-card.med::before {
   background: #10b981;
 }
-
 .pub-label {
   display: inline-block;
   padding: 5px 10px;
@@ -243,22 +219,18 @@ html {
   font-weight: 800;
   margin-bottom: 12px;
 }
-
 .pub-label.seg {
   background: #eef2ff;
   color: #3730a3;
 }
-
 .pub-label.rs {
   background: #e0f2fe;
   color: #0369a1;
 }
-
 .pub-label.med {
   background: #dcfce7;
   color: #047857;
 }
-
 .pub-title {
   font-size: 1.58rem;
   font-weight: 850;
@@ -266,31 +238,26 @@ html {
   line-height: 2;
   margin-bottom: 10px;
 }
-
 .pub-authors {
   line-height: 1.75;
   color: #374151;
   margin-bottom: 6px;
 }
-
 .pub-venue {
   font-style: italic;
   color: #4b5563;
   margin-bottom: 14px;
 }
-
 .pub-short {
   line-height: 1.85;
   color: #374151;
 }
-
 .metric-row {
   margin-top: 14px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-
 .metric {
   display: inline-block;
   padding: 6px 11px;
@@ -301,18 +268,15 @@ html {
   border: 1px solid #e5e7eb;
   color: #374151;
 }
-
 details {
   margin-top: 14px;
 }
-
 summary {
   cursor: pointer;
   font-weight: 800;
   color: #2563eb;
   margin-top: 10px;
 }
-
 .detail-box {
   margin-top: 12px;
   padding: 15px 18px;
@@ -322,7 +286,6 @@ summary {
   line-height: 1.85;
   color: #374151;
 }
-
 .project-card {
   border: 1px solid #e5e7eb;
   border-radius: 18px;
@@ -330,27 +293,23 @@ summary {
   background: #ffffff;
   box-shadow: 0 8px 24px rgba(15, 23, 42, 0.045);
 }
-
 .project-title {
   font-size: 1.16rem;
   font-weight: 850;
   margin-bottom: 8px;
   color: #111827;
 }
-
 .project-meta {
   color: #4b5563;
   font-style: italic;
   margin-bottom: 14px;
 }
-
 .award-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
   gap: 14px;
   margin-top: 18px;
 }
-
 .award-card {
   border: 1px solid #e5e7eb;
   border-radius: 16px;
@@ -358,18 +317,15 @@ summary {
   background: #fafafa;
   box-shadow: 0 5px 14px rgba(15, 23, 42, 0.035);
 }
-
 .award-name {
   font-weight: 850;
   color: #111827;
   margin-bottom: 6px;
 }
-
 .award-meta {
   color: #4b5563;
   line-height: 1.7;
 }
-
 @media (max-width: 768px) {
   .bio-card,
   .info-card,
@@ -660,3 +616,37 @@ summary {
     </div>
   </div>
 </div>
+
+<!-- 👇 JavaScript for Scrollspy (导航栏随滚动高亮) 👇 -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const sections = document.querySelectorAll('.home-section, .bio-card');
+  const navLinks = document.querySelectorAll('a[href^="#"]'); 
+
+  const observerOptions = {
+    root: null,
+    rootMargin: '-40% 0px -60% 0px', 
+    threshold: 0
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const currentId = entry.target.getAttribute('id');
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (currentId && link.getAttribute('href') === '#' + currentId) {
+            link.classList.add('active');
+          }
+        });
+      }
+    });
+  }, observerOptions);
+
+  sections.forEach(section => {
+    if (section.getAttribute('id')) {
+      observer.observe(section);
+    }
+  });
+});
+</script>
