@@ -451,7 +451,7 @@ summary {
 
       <div>
         <div class="edu-name">Anhui Quanjiao Middle School</div>
-        <div class="edu-meta">B.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2019 – Jun. 2023</div>
+        <div class="edu-meta">High School Diploma (Science Track) &nbsp; | &nbsp; Sep. 2019 – Jun. 2023</div>
       </div>
     </div>
   </div>
