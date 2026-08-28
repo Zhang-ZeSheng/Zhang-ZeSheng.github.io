@@ -416,6 +416,54 @@ summary {
 
 <div class="home-section" id="publications">
   <div class="home-title" data-icon="📚">Publications</div>
+
+<div class="pub-card rs">
+  <!-- 标签可以根据你的喜好修改，这里我换成了演化计算和特征选择 -->
+  <div class="pub-label rs">Evolutionary Computation · Feature Selection</div>
+
+  <div class="pub-title">
+    Learning-Assisted Evolutionary Feature Selection via Age-Reinforced Reduction and Expansion for High-Dimensional Classification
+  </div>
+
+  <div class="pub-authors">
+    <!-- 原文中未显示全部作者，请将此处的 Co-author 替换为你的真实合作者姓名 -->
+    <strong>Zesheng Zhang</strong>, Shoufei Han*, Xiaojing Liu, Changhe li, Kaixiang Yang and Qianlong Dang
+  </div>
+
+  <div class="pub-venue">
+    IEEE Transactions on Evolutionary Computation.()
+  </div>
+
+  <div class="pub-short">
+    A learning-assisted feature selection framework (EFSARE) that combines a <strong>novel feature-level encoding strategy</strong>, reinforcement learning, and an age-driven reduction-and-expansion mechanism for high-dimensional data classification.
+  </div>
+
+  <!-- Pipeline Figure -->
+  <div class="pub-figure">
+    <!-- 请确保在 assets/images/ 文件夹下放入对应的流程图，并修改图片名称 -->
+    <img src="{{ '/images/framer.png.jpg' | relative_url }}" alt="Overall framework of the EFSARE">
+  </div>
+
+  <div class="metric-row">
+    <span class="metric">Feature-level Encoding</span>
+    <span class="metric">RL-driven Adjustment</span>
+    <span class="metric">Age-guided Strategy</span>
+  </div>
+
+  <details>
+    <summary>Show details</summary>
+    <div class="detail-box">
+      EFSARE addresses the challenges of high-dimensional individual representation and slow search efficiency in evolutionary computation. It introduces a novel encoding scheme where each individual corresponds to a single feature and the population collectively represents the entire feature space. Guided by reinforcement learning (Q-learning) and historical age information, it adaptively switches between feature reduction and expansion. Comprehensive experiments on 22 high-dimensional public datasets and 2 gene engineering datasets demonstrate that it achieves state-of-the-art performance in terms of average classification accuracy, number of selected features, and computational time.
+       <div class="pub-figure">
+        <!-- 可以在这里放图表，比如 22 个数据集的实验对比图 -->
+        <img src="{{ '/images/EFSARE_Experiment.jpg' | relative_url }}" alt="Experiments on 22 High-dimensional Datasets">
+      </div>
+    </div>
+  </details>
+</div>
+
+
+
 <div class="pub-card rs">
   <div class="pub-label rs">Remote Sensing · Low-light Enhancement</div>
 
