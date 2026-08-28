@@ -467,22 +467,6 @@ summary {
       </div>
     </div>
 
-    <div class="edu-grid">
-      <div class="edu-item">
-        <strong>GPA</strong><br>
-        4.36 / 5.00
-      </div>
-
-      <div class="edu-item">
-        <strong>Ranking</strong><br>
-        1 / 157, top 1%
-      </div>
-
-      <div class="edu-item">
-        <strong>English</strong><br>
-        CET-4
-      </div>
-    </div>
   </div>
 
   <div class="info-card soft">
@@ -495,22 +479,6 @@ summary {
       </div>
     </div>
 
-    <div class="edu-grid">
-      <div class="edu-item">
-        <strong>GPA</strong><br>
-        4.36 / 5.00
-      </div>
-
-      <div class="edu-item">
-        <strong>Ranking</strong><br>
-        1 / 157, top 1%
-      </div>
-
-      <div class="edu-item">
-        <strong>English</strong><br>
-        CET-4
-      </div>
-    </div>
   </div>
 
 </div>
