@@ -16,6 +16,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    position: relative;
     padding: .5em;
     font-family: $sans-serif-narrow;
 
@@ -34,6 +35,7 @@
 }
 
 .masthead__menu {
+  padding-right: 11em;
 
   ul {
     margin: 0;
@@ -61,4 +63,73 @@
   }
 }
 
+.masthead__stats {
+  position: absolute;
+  top: 50%;
+  right: .75em;
+  transform: translateY(-50%);
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  gap: .45em;
+  padding: .38em .7em;
+  border: 1px solid $lighter-gray;
+  border-radius: 999px;
+  background: #f8fafc;
+  color: $gray;
+  font-size: $type-size-7;
+  font-weight: 700;
+  line-height: 1;
+  white-space: nowrap;
+}
 
+.masthead__stat {
+  display: inline-flex;
+  align-items: center;
+  gap: .3em;
+}
+
+.masthead__stat-icon {
+  font-size: .95em;
+}
+
+.masthead__stat-value {
+  color: $dark-gray;
+  font-variant-numeric: tabular-nums;
+}
+
+.masthead__stat-separator {
+  display: inline-block;
+  width: 1px;
+  height: .9em;
+  background: $light-gray;
+}
+
+@media (max-width: $medium) {
+  .masthead__menu {
+    padding-right: 8.5em;
+  }
+
+  .masthead__stats {
+    gap: .3em;
+    padding: .3em .55em;
+  }
+
+  .masthead__stat-label {
+    display: none;
+  }
+}
+
+@media (max-width: $small) {
+  .masthead__menu .greedy-nav {
+    min-width: 0;
+  }
+
+  .masthead__menu {
+    padding-right: 7.5em;
+  }
+
+  .masthead__stats {
+    padding: .25em .45em;
+  }
+}

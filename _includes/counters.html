@@ -1,0 +1,79 @@
+{% assign counter_namespace = site.counter_namespace | default: "zhang-zesheng-homepage" %}
+<script>
+(function () {
+  "use strict";
+
+  var API = "https://tallywire.cronpulse.workers.dev";
+  var NAMESPACE = "{{ counter_namespace | escape }}";
+  var VIEW_KEY = "views";
+  var CLICK_KEY = "clicks";
+  var viewEl = document.getElementById("site-views");
+  var clickEl = document.getElementById("site-clicks");
+
+  if (!viewEl || !clickEl) return;
+
+  var localPrefix = "zzs-counter:" + NAMESPACE + ":";
+
+  function readLocal(key) {
+    try {
+      return parseInt(localStorage.getItem(key), 10) || 0;
+    } catch (e) {
+      return 0;
+    }
+  }
+
+  function writeLocal(key, value) {
+    try {
+      localStorage.setItem(key, String(value));
+    } catch (e) {}
+  }
+
+  function incrementLocal(key) {
+    var next = readLocal(key) + 1;
+    writeLocal(key, next);
+    return next;
+  }
+
+  function format(value) {
+    return Number(value || 0).toLocaleString("en-US");
+  }
+
+  function show(el, value) {
+    if (el) {
+      el.textContent = value == null ? "--" : format(value);
+    }
+  }
+
+  function count(key, localKey, el) {
+    var fallback = incrementLocal(localKey);
+    show(el, fallback);
+
+    return fetch(API + "/hit/" + NAMESPACE + "/" + key, {
+      method: "GET",
+      mode: "cors",
+      cache: "no-store",
+      keepalive: true
+    })
+      .then(function (response) {
+        if (!response.ok) throw new Error("counter request failed");
+        return response.json();
+      })
+      .then(function (data) {
+        show(el, data.value);
+      })
+      .catch(function () {
+        show(el, fallback);
+      });
+  }
+
+  count(VIEW_KEY, localPrefix + VIEW_KEY, viewEl);
+
+  document.addEventListener("click", function (event) {
+    var target = event.target;
+    if (!target || !target.closest) return;
+    if (target.closest("a, button, summary")) {
+      count(CLICK_KEY, localPrefix + CLICK_KEY, clickEl);
+    }
+  }, true);
+})();
+</script>

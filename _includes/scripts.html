@@ -1,4 +1,8 @@
 <script src="assets/js/main.min.js"></script>
 
+{% if page.counters != false %}
+  {% include counters.html %}
+{% endif %}
+
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}

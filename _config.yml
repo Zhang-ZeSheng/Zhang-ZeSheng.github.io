@@ -16,6 +16,9 @@ google_scholar_stats_use_cdn : true
 # google analytics
 google_analytics_id      :
 
+# Top-right visitor & click counter (free Tallywire counter API)
+counter_namespace        : "zhang-zesheng-homepage"
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
