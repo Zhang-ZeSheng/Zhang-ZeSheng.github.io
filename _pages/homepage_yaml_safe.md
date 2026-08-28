@@ -430,9 +430,11 @@ summary {
      I am <strong>Zesheng Zhang</strong>, an undergraduate student majoring in <strong>Artificial Intelligence</strong> at <strong>Anhui University of Science and Technology</strong>. My research interests lie in <strong>Evolutionary Computation</strong>, <strong>Intelligent Optimization</strong>, <strong>Data Mining</strong>, <strong>Machine Learning</strong>, <strong>Reinforcement Learning</strong> and <strong>Pattern Recognition</strong>. I aim to refine the mathematical theory of evolutionary computation using fundamental mathematical principles and to use this framework to explain the field, thereby thoroughly breaking open the "black box" of artificial intelligence and achieving explainable AI.
   </div>
 
-  <div style="margin-top: 16px; margin-bottom: 4px;">
+  <!-- 👇 浏览量徽章 (Page Views Badge) 👇 -->
+  <div style="margin-top: 18px; margin-bottom: 4px;">
     <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2FZhang-ZeSheng.github.io&count_bg=%232563EB&title_bg=%23555555&title=Page+Views&edge_flat=true" alt="Page Views">
   </div>
+  <!-- 👆 ======================= 👆 -->
 
   <div class="tag-row">
     <span class="tag">Evolutionary Computation</span>
@@ -731,23 +733,23 @@ summary {
 </div>
 
 <div class="pub-card rs">
-  <div class="pub-label rs">Particle Swarm Optimization · Multi-objective Optimization<!--[cite: 4] --></div>
+  <div class="pub-label rs">Particle Swarm Optimization · Multi-objective Optimization<!-- --></div>
 
   <h3 class="pub-title">
-    Research on Relocation Compensation and Whole Hospital Optimization Decision of Old Town Based on Particle Swarm Optimization Algorithm<!--[cite: 4] -->
+    Research on Relocation Compensation and Whole Hospital Optimization Decision of Old Town Based on Particle Swarm Optimization Algorithm<!-- -->
   </h3>
 
   <div class="pub-authors">
-    <strong>Zesheng Zhang</strong><!--[cite: 4] -->
+    <strong>Zesheng Zhang</strong><!-- -->
   </div>
 
   <div class="pub-venue">
-    <em>Mathematical Modeling and Algorithm Application</em><br><!--[cite: 4] -->
+    <em>Mathematical Modeling and Algorithm Application</em><br><!-- -->
     <span class="pub-status">Journal Article</span>
   </div>
 
   <div class="pub-short">
-    A multi-objective optimization framework that utilizes a <strong>Logit model and Particle Swarm Optimization (PSO)</strong> to solve complex relocation compensation and decision-making challenges in old city renewals<!--[cite: 4] -->.
+    A multi-objective optimization framework that utilizes a <strong>Logit model and Particle Swarm Optimization (PSO)</strong> to solve complex relocation compensation and decision-making challenges in old city renewals<!-- -->.
   </div>
 
   <!-- 👇 直接跳转至官方 DOI 的按钮 👇 -->
@@ -763,15 +765,15 @@ summary {
   </div>
 
   <div class="metric-row">
-    <span class="metric">PSO Algorithm<!--[cite: 4] --></span>
-    <span class="metric">Fuzzy Comprehensive Evaluation<!--[cite: 4] --></span>
-    <span class="metric">Heuristic Search<!--[cite: 4] --></span>
+    <span class="metric">PSO Algorithm<!-- --></span>
+    <span class="metric">Fuzzy Comprehensive Evaluation<!-- --></span>
+    <span class="metric">Heuristic Search<!-- --></span>
   </div>
 
   <details>
     <summary>Read more</summary>
     <div class="detail-box">
-      This study addresses the "translational replacement" strategy in old city bungalow renovations by establishing a Logit model to quantify residents' relocation probabilities based on spatial, lighting, and psychological factors<!--[cite: 4] -->. Furthermore, it employs a two-stage heuristic algorithm combining greedy search and PSO to maximize the number and area of vacant complete courtyards while strictly adhering to compensation rules and cost constraints<!--[cite: 4] -->.
+      This study addresses the "translational replacement" strategy in old city bungalow renovations by establishing a Logit model to quantify residents' relocation probabilities based on spatial, lighting, and psychological factors<!-- -->. Furthermore, it employs a two-stage heuristic algorithm combining greedy search and PSO to maximize the number and area of vacant complete courtyards while strictly adhering to compensation rules and cost constraints<!-- -->.
     </div>
   </details>
 </div>
@@ -863,7 +865,6 @@ summary {
   </div>
 </div>
 
-<!-- 👇 终极版 JavaScript：处理滑动高亮与点击平滑跳转 👇 -->
 <!-- Contact Section -->
 <div class="home-section" id="contact">
   <h2 class="home-title" data-icon="✉️">Contact</h2>
@@ -881,6 +882,7 @@ summary {
   </div>
 </div>
 
+<!-- 👇 终极版 JavaScript：处理滑动高亮与点击平滑跳转 👇 -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   // 1. 获取所有带有 ID 的正文板块
