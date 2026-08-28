@@ -426,12 +426,12 @@ summary {
   </div>
 
   <div class="pub-authors">
-    <!-- 原文中未显示全部作者，请将此处的 Co-author 替换为你的真实合作者姓名 -->
-    <strong>Zesheng Zhang</strong>, Shoufei Han*, Xiaojing Liu, Changhe li, Kaixiang Yang and Qianlong Dang
+    <strong>Zesheng Zhang</strong>, Shoufei Han*, Xiaojing Liu, Changhe Li, Kaixiang Yang and Qianlong Dang
   </div>
 
   <div class="pub-venue">
-    IEEE Transactions on Evolutionary Computation.()
+    <em>IEEE Transactions on Evolutionary Computation</em> (Under Review)<br>
+    <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CAS Q1 Top | CCF-B | IF: 15.9</span>
   </div>
 
   <div class="pub-short">
@@ -441,7 +441,7 @@ summary {
   <!-- Pipeline Figure -->
   <div class="pub-figure">
     <!-- 请确保在 assets/images/ 文件夹下放入对应的流程图，并修改图片名称 -->
-    <img src="{{ '/images/framer.png.jpg' | relative_url }}" alt="Overall framework of the EFSARE">
+    <img src="{{ '/images/framer.png' | relative_url }}" alt="Overall framework of the EFSARE">
   </div>
 
   <div class="metric-row">
