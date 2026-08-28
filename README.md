@@ -1,6 +1,6 @@
 
 <h1 align="center">
-AcadHomepage
+Zesheng Zhang's Academic Homepage
 </h1>
 
 <div align="center">
@@ -11,7 +11,7 @@ AcadHomepage
 [![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
 </div>
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+<p align="center">A modern, responsive academic personal homepage based on Jekyll and AcadHomepage</p>
 
 <p align="center">
     <br>
@@ -46,7 +46,7 @@ Some examples:
     1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
     1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
     1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
+1. Add your homepage content in `_pages/homepage_yaml_safe.md`.
     1. You can use html+markdown syntax just same as jekyll.
     1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
         ```html

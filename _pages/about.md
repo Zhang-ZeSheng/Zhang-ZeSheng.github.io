@@ -1,7 +1,8 @@
 ---
-permalink: /
-title: "Homepage"
+permalink: /legacy/
+title: "Archived homepage"
 excerpt: ""
+published: false
 author_profile: true
 redirect_from:
   - /about/

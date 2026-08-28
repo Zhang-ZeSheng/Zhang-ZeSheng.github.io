@@ -1,7 +1,7 @@
 ---
 permalink: "/"
 title: "Homepage"
-excerpt: ""
+excerpt: "Zesheng Zhang is an undergraduate AI researcher at Anhui University of Science and Technology working on evolutionary computation, intelligent optimization, and feature selection."
 author_profile: true
 redirect_from:
   - /about/
@@ -12,7 +12,15 @@ redirect_from:
 /* 👇 全局平滑滚动 👇 */
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 80px; 
+  scroll-padding-top: 80px;
+}
+
+#about,
+#education,
+#publications,
+#awards,
+#contact {
+  scroll-margin-top: 80px;
 }
 
 /* 👇 导航栏高亮联动样式 👇 */
@@ -45,11 +53,18 @@ a[href^="#"].active {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 1.55rem;
+  font-size: 1.45rem;
   font-weight: 850;
   margin-bottom: 20px;
   color: #111827;
   letter-spacing: -0.02em;
+}
+
+h2.home-title,
+h3.pub-title,
+h3.award-name,
+h3.project-title {
+  margin: 0;
 }
 .award-cert {
   margin-top: 12px;
@@ -101,6 +116,24 @@ a[href^="#"].active {
   line-height: 1.9;
   color: #374151;
 }
+
+.highlight-row {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.highlight {
+  display: inline-block;
+  padding: 7px 13px;
+  border-radius: 999px;
+  background: #f0fdf4;
+  color: #047857;
+  font-size: 0.88rem;
+  font-weight: 700;
+  border: 1px solid #bbf7d0;
+}
 .tag-row {
   margin-top: 18px;
   display: flex;
@@ -134,6 +167,12 @@ a[href^="#"].active {
   background: #ffffff;
   color: #374151 !important;
   box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+}
+
+.action-btn:hover {
+  border-color: #2563eb;
+  color: #2563eb !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.14);
 }
 .info-card {
   border: 1px solid #e5e7eb;
@@ -232,10 +271,10 @@ a[href^="#"].active {
   color: #047857;
 }
 .pub-title {
-  font-size: 1.58rem;
+  font-size: 1.38rem;
   font-weight: 850;
   color: #111827;
-  line-height: 2;
+  line-height: 1.45;
   margin-bottom: 10px;
 }
 .pub-authors {
@@ -267,6 +306,23 @@ a[href^="#"].active {
   background: #ffffff;
   border: 1px solid #e5e7eb;
   color: #374151;
+}
+
+.pub-status {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: #fee2e2;
+  color: #b91c1c;
+  font-size: 0.84rem;
+  font-weight: 750;
+  font-style: normal;
+}
+
+.pub-status.muted {
+  background: #f1f5f9;
+  color: #475569;
 }
 details {
   margin-top: 14px;
@@ -326,6 +382,29 @@ summary {
   color: #4b5563;
   line-height: 1.7;
 }
+
+.view-hint {
+  display: block;
+  margin-top: 9px;
+  color: #2563eb;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.contact-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 26px 30px;
+  background: linear-gradient(135deg, #ffffff 0%, #eff6ff 100%);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.045);
+}
+
+.contact-lead {
+  margin: 0 0 18px;
+  color: #374151;
+  line-height: 1.85;
+}
+
 @media (max-width: 768px) {
   .bio-card,
   .info-card,
@@ -334,35 +413,50 @@ summary {
     padding: 20px 18px;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .award-cert img {
+    transition: none;
+  }
+}
 </style>
 
 <!-- About Me Section -->
 <div class="bio-card" id="about">
   <div class="bio-main">
-    I am <strong>Zesheng Zhang</strong>, an undergraduate student majoring in <strong>Artificial Intelligence</strong> at <strong>Anhui University of Science and Technology</strong>. My research interests lie in <strong>Evolutionary Computation</strong>, <strong>Intelligent Optimization</strong>, <strong>Data Mining</strong>, <strong>Machine Learning</strong>, <strong>Reinforcement Learning</strong> and <strong>Pattern Recognition</strong>. I aim to refine the mathematical theory of evolutionary computation using fundamental mathematical principles and to use this framework to explain the field, thereby thoroughly breaking open the "black box" of artificial intelligence and achieving explainable AI.
+    I am <strong>Zesheng Zhang</strong>, an undergraduate researcher in <strong>Artificial Intelligence</strong> at <strong>Anhui University of Science and Technology</strong>. My work sits at the intersection of <strong>evolutionary computation</strong> and <strong>machine learning</strong>, with a focus on high-dimensional <strong>feature selection</strong>, intelligent optimization, data mining, and explainable AI. I design learning-assisted metaheuristics that improve both solution quality and computational efficiency for real-world engineering problems.
   </div>
 
   <div class="tag-row">
     <span class="tag">Evolutionary Computation</span>
-    <span class="tag">Data Mining</span>
-    <span class="tag">Pattern Recognition</span>
-    <span class="tag">Artificial Intelligence</span>
+    <span class="tag">Feature Selection</span>
+    <span class="tag">Intelligent Optimization</span>
+    <span class="tag">Metaheuristics</span>
     <span class="tag">Machine Learning</span>
-    <span class="tag">Reinforcement Learning</span>
+    <span class="tag">Explainable AI</span>
+  </div>
+
+  <div class="highlight-row">
+    <span class="highlight">Top 1% in cohort</span>
+    <span class="highlight">CAS Q1 / CCF venues</span>
+    <span class="highlight">National Scholarship ×2</span>
   </div>
 </div>
 
 <!-- Education Section -->
 <div class="home-section" id="education">
-  <div class="home-title" data-icon="🎓">Education</div>
+  <h2 class="home-title" data-icon="🎓">Education</h2>
 
   <div class="info-card soft">
     <div class="edu-head">
-      <img class="edu-logo" src="{{ '/images/aust-logo.png' | relative_url }}" alt="Anhui University of Science and Technology">
+      <img class="edu-logo" src="{{ '/images/aust-logo.png' | relative_url }}" alt="Anhui University of Science and Technology" width="76" height="76" loading="lazy" decoding="async">
 
       <div>
         <div class="edu-name">Anhui University of Science and Technology</div>
-        <div class="edu-meta">B.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2023 - Present</div>
+        <div class="edu-meta">B.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2023 – Present</div>
       </div>
     </div>
 
@@ -374,7 +468,7 @@ summary {
 
       <div class="edu-item">
         <strong>Ranking</strong><br>
-        1/ 157, top 1%
+        1 / 157, top 1%
       </div>
 
       <div class="edu-item">
@@ -387,14 +481,14 @@ summary {
 
 <!-- Publications Section -->
 <div class="home-section" id="publications">
-  <div class="home-title" data-icon="📚">Publications</div>
+  <h2 class="home-title" data-icon="📚">Publications</h2>
 
   <div class="pub-card rs">
     <div class="pub-label rs">Evolutionary Computation · Feature Selection</div>
 
-    <div class="pub-title">
+    <h3 class="pub-title">
       Learning-Assisted Evolutionary Feature Selection via Age-Reinforced Reduction and Expansion for High-Dimensional Classification
-    </div>
+    </h3>
 
     <div class="pub-authors">
       <strong>Zesheng Zhang</strong>, Shoufei Han*, Xiaojing Liu, Changhe Li, Kaixiang Yang and Qianlong Dang
@@ -402,15 +496,15 @@ summary {
 
     <div class="pub-venue">
       <em>IEEE Transactions on Evolutionary Computation</em><br>
-      <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CAS Q1 Top | CCF-B | IF: 15.9</span>
+      <span class="pub-status">CAS Q1 Top · CCF-B · IF: 15.9</span>
     </div>
 
     <div class="pub-short">
-      A learning-assisted feature selection framework (EFSARE) that combines a <strong>novel feature-level encoding strategy</strong>, reinforcement learning, and an age-driven reduction-and-expansion mechanism for high-dimensional data classification.
+      An RL-assisted evolutionary feature selection framework (EFSARE) that combines a <strong>feature-level encoding strategy</strong>, reinforcement learning, and age-guided reduction and expansion for high-dimensional classification.
     </div>
 
     <div class="pub-figure">
-      <img src="{{ '/images/framer.png' | relative_url }}" alt="Overall framework of the EFSARE">
+      <img src="{{ '/images/framer.png' | relative_url }}" alt="Overall framework of the EFSARE" width="1800" height="773" loading="lazy" decoding="async">
     </div>
 
     <div class="metric-row">
@@ -420,11 +514,11 @@ summary {
     </div>
 
     <details>
-      <summary>Show details</summary>
+      <summary>Read more</summary>
       <div class="detail-box">
         EFSARE addresses the challenges of high-dimensional individual representation and slow search efficiency in evolutionary computation. It introduces a novel encoding scheme where each individual corresponds to a single feature and the population collectively represents the entire feature space. Guided by reinforcement learning (Q-learning) and historical age information, it adaptively switches between feature reduction and expansion. Comprehensive experiments on 22 high-dimensional public datasets and 2 gene engineering datasets demonstrate that it achieves state-of-the-art performance in terms of average classification accuracy, number of selected features, and computational time.
         <div class="pub-figure">
-          <img src="{{ '/images/EFSARE_Encode.png' | relative_url }}" alt="Experiments on 22 High-dimensional Datasets">
+          <img src="{{ '/images/EFSARE_Encode.png' | relative_url }}" alt="Experiments on 22 high-dimensional datasets" width="1200" height="593" loading="lazy" decoding="async">
         </div>
       </div>
     </details>
@@ -433,9 +527,9 @@ summary {
   <div class="pub-card rs">
     <div class="pub-label rs">Evolutionary Computation · Feature Selection · IIoT</div>
 
-    <div class="pub-title">
+    <h3 class="pub-title">
       Evolutionary Feature Selection via Cosine Similarity Initialization and Manifold Contracting for Sparse IIoT Data
-    </div>
+    </h3>
 
     <div class="pub-authors">
       <strong>Zesheng Zhang</strong>, Shoufei Han*, Xiaojing Liu, Yongbiao Gao*, Kun Zhu, Zhi Liu, and Liang Zhao
@@ -443,15 +537,15 @@ summary {
 
     <div class="pub-venue">
       <em>IEEE Internet of Things Journal</em><br>
-      <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CAS Q1 Top | CCF-C | IF: 8.9</span>
+      <span class="pub-status">CAS Q1 Top · CCF-C · IF: 8.9</span>
     </div>
 
     <div class="pub-short">
-      An innovative framework termed Adaptive Decision Space Contraction (ADSC) that combines a <strong>Cosine Similarity Initialization Method (CSIM)</strong> and a dynamically contracting manifold system to address high-dimensional sparse IIoT data.
+      An adaptive decision-space contraction framework (ADSC) that initializes diverse solutions with <strong>cosine similarity</strong> and greedily contracts the feature space for sparse IIoT data.
     </div>
 
     <div class="pub-figure">
-      <img src="{{ '/images/ADSC_frame.png' | relative_url }}" alt="Overall framework of the ADSC">
+      <img src="{{ '/images/ADSC_frame.png' | relative_url }}" alt="Overall framework of the ADSC" width="1800" height="876" loading="lazy" decoding="async">
     </div>
 
     <div class="metric-row">
@@ -461,11 +555,11 @@ summary {
     </div>
 
     <details>
-      <summary>Show details</summary>
+      <summary>Read more</summary>
       <div class="detail-box">
         ADSC addresses the challenges of uneven initial population distribution and redundant features in high-dimensional industrial data. It introduces a Cosine Similarity Initialization Method (CSIM) to ensure a highly diverse initial population by measuring the angles between solution vectors. Furthermore, it employs a greedy strategy to transform the static feature search space into a dynamically contracting manifold system, achieving an exponential reduction in the decision space. Comprehensive experiments on representative real-world industrial datasets (SECOM and TEP) and 12 high-dimensional benchmark datasets demonstrate that ADSC achieves top-tier performance across classification accuracy, feature subset size, and computational efficiency.
         <div class="pub-figure">
-          <img src="{{ '/images/ADSC_times.png' | relative_url }}" alt="Experiments on Industrial and Benchmark Datasets">
+          <img src="{{ '/images/ADSC_times.png' | relative_url }}" alt="Experiments on industrial and benchmark datasets" width="2453" height="2118" loading="lazy" decoding="async">
         </div>
       </div>
     </details>
@@ -474,9 +568,9 @@ summary {
   <div class="pub-card rs">
     <div class="pub-label rs">Evolutionary Computation · Multi-UAV Trajectory Planning · LAE</div>
 
-    <div class="pub-title">
+    <h3 class="pub-title">
       WQAD-RIME: A Convergence-Enhanced Metaheuristic Framework for Multi-UAV Trajectory Planning in Low-Altitude Mobile Environments
-    </div>
+    </h3>
 
     <div class="pub-authors">
       Kaiyuan Zheng, Xiangyu Li, Yiming Huang, Liu Zhang, Wei Deng, <strong>Zesheng Zhang</strong>, and Xiong Wang*
@@ -484,15 +578,15 @@ summary {
 
     <div class="pub-venue">
       <em>IEEE Transactions on Mobile Computing</em> (Under review)<br>
-      <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CAS Q1 Top | CCF-A | IF: 8.8 </span>
+      <span class="pub-status muted">CAS Q1 Top · CCF-A</span>
     </div>
 
     <div class="pub-short">
-      A convergence-enhanced evolutionary framework (WQAD-RIME) that incorporates <strong>four complementary mechanisms (WHI, QDE, ABRD, DCRL)</strong> to address high-dimensional, nonconvex multi-UAV trajectory planning in low-altitude environments.
+      A convergence-enhanced metaheuristic framework (WQAD-RIME) that couples <strong>four complementary mechanisms</strong> to improve multi-UAV trajectory planning in low-altitude mobile environments.
     </div>
 
     <div class="pub-figure">
-      <img src="{{ '/images/WQAD_framework.png' | relative_url }}" alt="Overall framework of WQAD">
+      <img src="{{ '/images/WQAD_framework.png' | relative_url }}" alt="Overall framework of WQAD-RIME" width="1800" height="1260" loading="lazy" decoding="async">
     </div>
 
     <div class="metric-row">
@@ -502,11 +596,11 @@ summary {
     </div>
 
     <details>
-      <summary>Show details</summary>
+      <summary>Read more</summary>
       <div class="detail-box">
         WQAD-RIME addresses the limitations of existing metaheuristic trajectory planners, such as poor population initialization and premature convergence, in high-dimensional nonconvex spaces. It utilizes a Weierstrass-harmonic initialization module for diverse dispersion, a quotient-based dynamic equilibrium for exploration-exploitation balance, an adaptive bidirectional rime-drift strategy to accelerate local refinement, and a dynamic centroid-based reverse-learning mechanism to improve search diversity. Extensive experiments on 42 high-dimensional benchmark functions and real-world multi-UAV scenarios demonstrate that it effectively shortens total flight trajectories and reduces associated operational costs.
         <div class="pub-figure">
-          <img src="{{ '/images/WQAD_Experiment.png' | relative_url }}" alt="Experiments on Multi-UAV Trajectory Planning">
+          <img src="{{ '/images/WQAD_Experiment.png' | relative_url }}" alt="Experiments on multi-UAV trajectory planning" width="1800" height="1437" loading="lazy" decoding="async">
         </div>
       </div>
     </details>
@@ -515,9 +609,9 @@ summary {
   <div class="pub-card rs">
     <div class="pub-label rs">Remote Sensing · Low-light Enhancement</div>
 
-    <div class="pub-title">
+    <h3 class="pub-title">
       Towards High-quality Low-Light Remote Sensing Image Enhancement via Geometric and Semantic Prior Guidance
-    </div>
+    </h3>
 
     <div class="pub-authors">
       Kang Yang, Jiaqi Zhang, Changqiu Xu, Longfei Xiao, Tong Liang and <strong>Zesheng Zhang*</strong>
@@ -525,15 +619,15 @@ summary {
 
     <div class="pub-venue">
       <em>International Conference on Neural Information Processing (ICONIP), Melbourne, Australia, 2026</em><br>
-      <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CCF-C </span>
+      <span class="pub-status">CCF-C</span>
     </div>
 
     <div class="pub-short">
-      A low-light remote sensing image enhancement framework that combines an <strong>HVI-based dual-branch design</strong>, geometric-semantic prior guidance, and adaptive sparse refinement.
+      A geometry- and semantics-guided enhancement network (GSPNet) that recovers brightness and color from low-light remote sensing images using <strong>HVI-based dual-branch design</strong> and adaptive sparse refinement.
     </div>
 
     <div class="pub-figure">
-      <img src="{{ '/images/Pipline.jpg' | relative_url }}" alt="Pipeline of GSPNet">
+      <img src="{{ '/images/Pipline.jpg' | relative_url }}" alt="Pipeline of GSPNet" width="1800" height="885" loading="lazy" decoding="async">
     </div>
 
     <div class="metric-row">
@@ -543,11 +637,11 @@ summary {
     </div>
 
     <details>
-      <summary>Show details</summary>
+      <summary>Read more</summary>
       <div class="detail-box">
         GSPNet addresses illumination degradation, chromatic distortion, and dark-region noise in remote sensing images. It decouples brightness restoration from color recovery in the HVI space, injects semantic and geometric priors from frozen vision foundation models, and uses adaptive sparse refinement to suppress unreliable feature interactions while preserving land-cover structures.
         <div class="pub-figure">
-          <img src="{{ '/images/Figure1.jpg' | relative_url }}" alt="Experiment On iSAID-darks">
+          <img src="{{ '/images/Figure1.jpg' | relative_url }}" alt="Qualitative results on iSAID-darks" width="1200" height="1088" loading="lazy" decoding="async">
         </div>
       </div>
     </details>
@@ -556,75 +650,96 @@ summary {
 
 <!-- Awards Section -->
 <div class="home-section" id="awards">
-  <div class="home-title" data-icon="🏆">Awards</div>
+  <h2 class="home-title" data-icon="🏆">Awards</h2>
 
   <div class="award-grid">
     <div class="award-card">
-      <div class="award-name">National Scholarship</div>
+      <h3 class="award-name">National Scholarship</h3>
       <div class="award-meta">
         Ministry of Education of the People's Republic of China<br>
         2023-2024 school year
       </div>
 
       <div class="award-cert">
-        <a href="{{ '/images/2023-2024.jpg' | relative_url }}" target="_blank">
-          <img src="{{ '/images/2023-2024.jpg' | relative_url }}" alt="Certificate of National Scholarship">
+        <a href="{{ '/images/2023-2024.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View 2023-2024 National Scholarship certificate">
+          <img src="{{ '/images/2023-2024.jpg' | relative_url }}" alt="Certificate of National Scholarship" width="1200" height="1691" loading="lazy" decoding="async">
         </a>
+        <span class="view-hint">View certificate</span>
       </div>
     </div>
 
     <div class="award-card">
-      <div class="award-name">National Scholarship</div>
+      <h3 class="award-name">National Scholarship</h3>
       <div class="award-meta">
         Ministry of Education of the People's Republic of China<br>
         2024-2025 school year
       </div>
 
       <div class="award-cert">
-        <a href="{{ '/images/2024-2025.jpg' | relative_url }}" target="_blank">
-          <img src="{{ '/images/2024-2025.jpg' | relative_url }}" alt="Certificate of National Scholarship">
+        <a href="{{ '/images/2024-2025.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View 2024-2025 National Scholarship certificate">
+          <img src="{{ '/images/2024-2025.jpg' | relative_url }}" alt="Certificate of National Scholarship" width="1200" height="1626" loading="lazy" decoding="async">
         </a>
+        <span class="view-hint">View certificate</span>
       </div>
     </div>
 
     <div class="award-card">
-      <div class="award-name">Honorable Mention</div>
+      <h3 class="award-name">Honorable Mention</h3>
       <div class="award-meta">
         Mathematical Contest in Modeling (MCM/ICM)<br>
         2026 | Team Leader
       </div>
 
       <div class="award-cert">
-        <a href="{{ '/images/MCM_Honorable_Mention.png' | relative_url }}" target="_blank">
-          <img src="{{ '/images/MCM_Honorable_Mention.png' | relative_url }}" alt="Certificate of MCM/ICM Honorable Mention">
+        <a href="{{ '/images/MCM_Honorable_Mention.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View MCM/ICM Honorable Mention certificate">
+          <img src="{{ '/images/MCM_Honorable_Mention.png' | relative_url }}" alt="Certificate of MCM/ICM Honorable Mention" width="1600" height="1236" loading="lazy" decoding="async">
         </a>
+        <span class="view-hint">View certificate</span>
       </div>
     </div>
 
     <div class="award-card">
-      <div class="award-name">National Second Prize</div>
+      <h3 class="award-name">National Second Prize</h3>
       <div class="award-meta">
         RoboCom Robot Developer Competition<br>
         2026 | Team Leader
       </div>
 
       <div class="award-cert">
-        <a href="{{ '/images/RoboCom_National_Second.jpg' | relative_url }}" target="_blank">
-          <img src="{{ '/images/RoboCom_National_Second.jpg' | relative_url }}" alt="Certificate of RoboCom National Second Prize">
+        <a href="{{ '/images/RoboCom_National_Second.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View RoboCom National Second Prize certificate">
+          <img src="{{ '/images/RoboCom_National_Second.jpg' | relative_url }}" alt="Certificate of RoboCom National Second Prize" width="1000" height="707" loading="lazy" decoding="async">
         </a>
+        <span class="view-hint">View certificate</span>
       </div>
     </div>
   </div>
 </div>
 
 <!-- 👇 终极版 JavaScript：处理滑动高亮与点击平滑跳转 👇 -->
+<!-- Contact Section -->
+<div class="home-section" id="contact">
+  <h2 class="home-title" data-icon="✉️">Contact</h2>
+
+  <div class="contact-card">
+    <p class="contact-lead">
+      I am open to research collaborations on evolutionary computation, intelligent optimization, and applied machine learning. If you are interested in my work, feel free to get in touch.
+    </p>
+
+    <div class="action-row">
+      <a class="action-btn" href="mailto:zesheng_zhang@163.com">Email me</a>
+      <a class="action-btn" href="https://github.com/Zhang-ZeSheng" target="_blank" rel="noopener">GitHub</a>
+      <a class="action-btn" href="https://orcid.org/0009-0007-9358-9086" target="_blank" rel="noopener">ORCID</a>
+    </div>
+  </div>
+</div>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   // 1. 获取所有带有 ID 的正文板块
   const sections = document.querySelectorAll('.home-section, .bio-card');
   
   // 2. 暴力获取所有可能跳转到这几个板块的导航链接（模糊匹配）
-  const navLinks = document.querySelectorAll('a[href*="#about"], a[href*="#education"], a[href*="#publications"], a[href*="#awards"]');
+  const navLinks = document.querySelectorAll('#site-nav a[href^="#"]');
 
   // 3. --- 处理滑动高亮逻辑 ---
   const observerOptions = {
