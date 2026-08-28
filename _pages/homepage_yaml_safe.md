@@ -617,33 +617,37 @@ summary {
   <div class="home-title" data-icon="🏆">Awards</div>
 
   <div class="award-grid">
-    <div class="award-card">
-  <div class="award-name">National Second Prize</div>
+
+<div class="award-card">
+  <div class="award-name">National Scholarship</div>
   <div class="award-meta">
-    AICOMP Object Detection 2025<br>
-    2025 | Team Leader
+    Ministry of Education of the People's Republic of China<br>
+    2023-2024 school year
   </div>
 
   <div class="award-cert">
-    <a href="{{ '/images/SAR.jpg' | relative_url }}" target="_blank">
-      <img src="{{ '/images/SAR.jpg' | relative_url }}" alt="Certificate of AICOMP Object Detection 2025">
+    <!-- 请确保在 images/ 文件夹下放入你的国奖证书扫描件，并替换下方的文件名 -->
+    <a href="{{ '/images/2023-2024.jpg' | relative_url }}" target="_blank">
+      <img src="{{ '/images/2023-2024.jpg' | relative_url }}" alt="Certificate of National Scholarship">
     </a>
   </div>
 </div>
 
 <div class="award-card">
-  <div class="award-name">National Second Prize</div>
+  <div class="award-name">National Scholarship</div>
   <div class="award-meta">
-    AICOMP Image Classification 2025<br>
-    2025 | Team Leader
+    Ministry of Education of the People's Republic of China<br>
+    2024-2025 school year
   </div>
 
   <div class="award-cert">
-    <a href="{{ '/images/imc.jpg' | relative_url }}" target="_blank">
-      <img src="{{ '/images/imc.jpg' | relative_url }}" alt="Certificate of AICOMP Image Classification 2025">
+    <!-- 请确保在 images/ 文件夹下放入你的国奖证书扫描件，并替换下方的文件名 -->
+    <a href="{{ '/images/2024-2025.jpg' | relative_url }}" target="_blank">
+      <img src="{{ '/images/2024-2025.jpg' | relative_url }}" alt="Certificate of National Scholarship">
     </a>
   </div>
 </div>
+
 
 <div class="award-card">
   <div class="award-name">Provincial First Prize</div>
