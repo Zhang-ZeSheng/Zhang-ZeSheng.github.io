@@ -451,7 +451,7 @@ summary {
 
       <div>
         <div class="edu-name">Anhui University of Science and Technology</div>
-        <div class="edu-meta">B.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2023 – 2027</div>
+        <div class="edu-meta">B.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2023 – Jun. 2027</div>
       </div>
     </div>
 
@@ -479,7 +479,7 @@ summary {
 
       <div>
         <div class="edu-name">Southeast University</div>
-        <div class="edu-meta">M.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2027 – 2030</div>
+        <div class="edu-meta">M.Eng. in Artificial Intelligence &nbsp; | &nbsp; Sep. 2027 – Jun. 2030</div>
       </div>
     </div>
 
