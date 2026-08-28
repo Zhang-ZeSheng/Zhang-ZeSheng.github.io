@@ -691,7 +691,46 @@ summary {
   </details>
 </div>
 
+<div class="pub-card rs">
+  <div class="pub-label rs">Particle Swarm Optimization · Multi-objective Optimization<!--[cite: 4] --></div>
 
+  <h3 class="pub-title">
+    Research on Relocation Compensation and Whole Hospital Optimization Decision of Old Town Based on Particle Swarm Optimization Algorithm<!--[cite: 4] -->
+  </h3>
+
+  <div class="pub-authors">
+    <strong>Zesheng Zhang</strong><!--[cite: 4] -->
+  </div>
+
+  <div class="pub-venue">
+    <em>Mathematical Modeling and Algorithm Application, Vol. 5, No. 2, 2025</em><br><!--[cite: 4] -->
+    <span class="pub-status">Journal Article</span>
+  </div>
+
+  <div class="pub-short">
+    A multi-objective optimization framework that utilizes a <strong>Logit model and Particle Swarm Optimization (PSO)</strong> to solve complex relocation compensation and decision-making challenges in old city renewals<!--[cite: 4] -->.
+  </div>
+
+  <!-- 👇 直接跳转至官方 DOI 的按钮 👇 -->
+  <div class="action-row" style="margin-top: 12px; margin-bottom: 16px;">
+    <a href="https://doi.org/10.54097/bvjpmf68" target="_blank" class="action-btn">
+      🔗 Publisher
+    </a>
+  </div>
+
+  <div class="metric-row">
+    <span class="metric">PSO Algorithm<!--[cite: 4] --></span>
+    <span class="metric">Fuzzy Comprehensive Evaluation<!--[cite: 4] --></span>
+    <span class="metric">Heuristic Search<!--[cite: 4] --></span>
+  </div>
+
+  <details>
+    <summary>Read more</summary>
+    <div class="detail-box">
+      This study addresses the "translational replacement" strategy in old city bungalow renovations by establishing a Logit model to quantify residents' relocation probabilities based on spatial, lighting, and psychological factors<!--[cite: 4] -->. Furthermore, it employs a two-stage heuristic algorithm combining greedy search and PSO to maximize the number and area of vacant complete courtyards while strictly adhering to compensation rules and cost constraints<!--[cite: 4] -->.
+    </div>
+  </details>
+</div>
 
 </div>
 
@@ -769,7 +808,7 @@ summary {
 
   <div class="award-cert">
     <!-- 图片路径已替换为您提供的文件名 -->
-    <a href="{{ '/images/Asia and Pacific Mathmatical Contest in Modeling_1.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View 2024 APMCM Third Prize certificate">
+    <a href="{{ '/images/Asia and Pacific Mathmatical Contest in Modeling_1.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View 2024 APMCM Third Prize certificate">
       <img src="{{ '/images/Asia and Pacific Mathmatical Contest in Modeling_1.jpg' | relative_url }}" alt="Certificate of APMCM Third Prize" width="1200" height="850" loading="lazy" decoding="async">
     </a>
     <span class="view-hint">View certificate</span>
