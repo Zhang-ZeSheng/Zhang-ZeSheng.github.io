@@ -475,7 +475,7 @@ summary {
   </div>
 
   <div class="pub-venue">
-    <em>IEEE Internet of Things Journal</em> <br>
+    <em>IEEE Internet of Things Journal</em><br>
     <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CAS Q1 Top | CCF-C | IF: 8.9</span>
   </div>
 
@@ -499,7 +499,7 @@ summary {
     <div class="detail-box">
       ADSC addresses the challenges of uneven initial population distribution and redundant features in high-dimensional industrial data. It introduces a Cosine Similarity Initialization Method (CSIM) to ensure a highly diverse initial population by measuring the angles between solution vectors. Furthermore, it employs a greedy strategy to transform the static feature search space into a dynamically contracting manifold system, achieving an exponential reduction in the decision space. Comprehensive experiments on representative real-world industrial datasets (SECOM and TEP) and 12 high-dimensional benchmark datasets demonstrate that ADSC achieves top-tier performance across classification accuracy, feature subset size, and computational efficiency.
        <div class="pub-figure">
-        <img src="{{ '/images/ADSC_Experiment.jpg' | relative_url }}" alt="Experiments on Industrial and Benchmark Datasets">
+        <img src="{{ '/images/ADSC_times.png' | relative_url }}" alt="Experiments on Industrial and Benchmark Datasets">
       </div>
     </div>
   </details>
