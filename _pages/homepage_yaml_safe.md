@@ -427,23 +427,18 @@ summary {
 <!-- About Me Section -->
 <div class="bio-card" id="about">
   <div class="bio-main">
-    I am <strong>Zesheng Zhang</strong>, an undergraduate researcher in <strong>Artificial Intelligence</strong> at <strong>Anhui University of Science and Technology</strong>. My work sits at the intersection of <strong>evolutionary computation</strong> and <strong>machine learning</strong>, with a focus on high-dimensional <strong>feature selection</strong>, intelligent optimization, data mining, and explainable AI. I design learning-assisted metaheuristics that improve both solution quality and computational efficiency for real-world engineering problems.
+     I am <strong>Zesheng Zhang</strong>, an undergraduate student majoring in <strong>Artificial Intelligence</strong> at <strong>Anhui University of Science and Technology</strong>. My research interests lie in <strong>Evolutionary Computation</strong>, <strong>Intelligent Optimization</strong>, <strong>Data Mining</strong>, <strong>Machine Learning</strong>, <strong>Reinforcement Learning</strong> and <strong>Pattern Recognition</strong>. I aim to refine the mathematical theory of evolutionary computation using fundamental mathematical principles and to use this framework to explain the field, thereby thoroughly breaking open the "black box" of artificial intelligence and achieving explainable AI.
   </div>
 
   <div class="tag-row">
     <span class="tag">Evolutionary Computation</span>
-    <span class="tag">Feature Selection</span>
-    <span class="tag">Intelligent Optimization</span>
-    <span class="tag">Metaheuristics</span>
+    <span class="tag">Data Mining</span>
+    <span class="tag">Pattern Recognition</span>
+    <span class="tag">Artificial Intelligence</span>
     <span class="tag">Machine Learning</span>
-    <span class="tag">Explainable AI</span>
+    <span class="tag">Reinforcement Learning</span>
   </div>
 
-  <div class="highlight-row">
-    <span class="highlight">Top 1% in cohort</span>
-    <span class="highlight">CAS Q1 / CCF venues</span>
-    <span class="highlight">National Scholarship ×2</span>
-  </div>
 </div>
 
 <!-- Education Section -->
