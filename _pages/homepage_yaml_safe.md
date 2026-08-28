@@ -430,7 +430,7 @@ summary {
   </div>
 
   <div class="pub-venue">
-    <em>IEEE Transactions on Evolutionary Computation</em> (Under Review)<br>
+    <em>IEEE Transactions on Evolutionary Computation</em><br>
     <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CAS Q1 Top | CCF-B | IF: 15.9</span>
   </div>
 
@@ -472,11 +472,12 @@ summary {
   </div>
 
   <div class="pub-authors">
-    Kang Yang, Jiaqi Zhang, Changqiu Xu, Longfei Xiao, Tong Liang, <strong>Zesheng Zhang*</strong>
+    Kang Yang, Jiaqi Zhang, Changqiu Xu, Longfei Xiao, Tong Liang and <strong>Zesheng Zhang*</strong>
   </div>
 
   <div class="pub-venue">
-    International Conference on Neural Information Processing (ICONIP), Melbourne, Australia, 2026
+    International Conference on Neural Information Processing (ICONIP), Melbourne, Australia, 2026</em><br>
+    <span style="font-size: 0.9em; font-weight: 600; color: #c0392b;">🏆 CCF-C </span>
   </div>
 
   <div class="pub-short">
