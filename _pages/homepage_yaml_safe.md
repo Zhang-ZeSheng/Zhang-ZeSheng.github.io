@@ -8,6 +8,24 @@ redirect_from:
   - /about.html
 ---
 
+
+<style>
+/* 👇 加上这一段开启平滑滚动 👇 */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; 
+}
+/* 👆 ======================= 👆 */
+
+.home-section {
+  margin: 34px 0 44px 0;
+}
+.pub-figure {
+  margin: 16px 0 14px;
+  text-align: center;
+}
+
+
 <style>
 .home-section {
   margin: 34px 0 44px 0;
