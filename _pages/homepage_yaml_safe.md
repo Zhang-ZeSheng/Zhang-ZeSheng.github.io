@@ -658,11 +658,16 @@ summary {
 </div>
 
 <div class="award-card">
-  <div class="award-name">Provincial First Prize</div>
+  <div class="award-name">National Second Prize</div>
   <div class="award-meta">
-    AICOMP Image Classification 2025<br>
-    2025 | Team Leader
+    RoboCom Robot Developer Competition<br>
+    2026 | Team Leader <!-- 请根据实际参赛年份和你的角色进行修改 -->
+  </div>
+
+  <div class="award-cert">
+    <a href="{{ '/images/RoboCom_National_Second.jpg' | relative_url }}" target="_blank">
+      <img src="{{ '/images/RoboCom_National_Second.jpg' | relative_url }}" alt="Certificate of RoboCom National Second Prize">
+    </a>
   </div>
 </div>
-  </div>
 </div>
