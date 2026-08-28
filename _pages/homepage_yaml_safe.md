@@ -696,6 +696,8 @@ summary {
   </details>
 </div>
 
+
+
 </div>
 
 <!-- Awards Section -->
@@ -762,6 +764,24 @@ summary {
         <span class="view-hint">View certificate</span>
       </div>
     </div>
+
+    <div class="award-card">
+  <h3 class="award-name">Third Prize</h3>
+  <div class="award-meta">
+    Asia and Pacific Mathematical Contest in Modeling (APMCM)<br>
+    2024 | Postgraduate Group
+  </div>
+
+  <div class="award-cert">
+    <!-- 图片路径已替换为您提供的文件名 -->
+    <a href="{{ '/images/Asia and Pacific Mathmatical Contest in Modeling_1.jpg' | relative_url }}" target="_blank" rel="noopener" aria-label="View 2024 APMCM Third Prize certificate">
+      <img src="{{ '/images/Asia and Pacific Mathmatical Contest in Modeling_1.jpg' | relative_url }}" alt="Certificate of APMCM Third Prize" width="1200" height="850" loading="lazy" decoding="async">
+    </a>
+    <span class="view-hint">View certificate</span>
+  </div>
+</div>
+
+
   </div>
 </div>
 
