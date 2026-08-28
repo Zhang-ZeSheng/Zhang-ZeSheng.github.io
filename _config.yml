@@ -17,7 +17,11 @@ google_scholar_stats_use_cdn : true
 google_analytics_id      :
 
 # Top-right visitor & click counter (free Tallywire counter API)
-counter_namespace        : "zhang-zesheng-homepage"
+# counter_namespace changes -> a fresh counter namespace (old test counts are not carried over)
+counter_namespace        : "zhang-zesheng-homepage-v2"
+# content: only external links, paper actions, certificates and contact links
+# all: every link, button and details toggle
+counter_click_scope      : "content"
 
 # SEO Related
 google_site_verification :

@@ -1,4 +1,4 @@
-{% assign counter_namespace = site.counter_namespace | default: "zhang-zesheng-homepage" %}
+{% assign counter_namespace = site.counter_namespace | default: "zhang-zesheng-homepage-v2" %}
 <script>
 (function () {
   "use strict";
@@ -7,6 +7,7 @@
   var NAMESPACE = "{{ counter_namespace | escape }}";
   var VIEW_KEY = "views";
   var CLICK_KEY = "clicks";
+  var TRACK_SCOPE = "{{ site.counter_click_scope | default: 'content' | escape }}";
   var viewEl = document.getElementById("site-views");
   var clickEl = document.getElementById("site-clicks");
 
@@ -44,6 +45,26 @@
     }
   }
 
+  function isTrackedClick(target) {
+    if (TRACK_SCOPE === "all") {
+      return Boolean(target.closest("a, button, summary"));
+    }
+
+    if (target.closest("[data-counter]")) return true;
+
+    if (target.closest("#site-nav button")) return false;
+
+    var link = target.closest("a");
+    if (link) {
+      var href = link.getAttribute("href") || "";
+      if (href.charAt(0) === "#") return false;
+      if (/^(https?:|mailto:|tel:|javascript:)/i.test(href)) return true;
+      if (/\.(jpe?g|png|gif|webp)(\?.*)?$/i.test(href)) return true;
+    }
+
+    return Boolean(target.closest(".action-btn"));
+  }
+
   function count(key, localKey, el) {
     var fallback = incrementLocal(localKey);
     show(el, fallback);
@@ -71,7 +92,7 @@
   document.addEventListener("click", function (event) {
     var target = event.target;
     if (!target || !target.closest) return;
-    if (target.closest("a, button, summary")) {
+    if (isTrackedClick(target)) {
       count(CLICK_KEY, localPrefix + CLICK_KEY, clickEl);
     }
   }, true);
