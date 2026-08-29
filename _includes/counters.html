@@ -1,9 +1,9 @@
-{% assign counter_namespace = site.counter_namespace | default: "zhang-zesheng-homepage-v2" %}
+{% assign counter_namespace = site.counter_namespace | default: "zhang-zesheng-homepage-v3" %}
 <script>
 (function () {
   "use strict";
 
-  var API = "https://tallywire.cronpulse.workers.dev";
+  var API = "https://abacus.jasoncameron.dev";
   var NAMESPACE = "{{ counter_namespace | escape }}";
   var VIEW_KEY = "views";
   var CLICK_KEY = "clicks";
@@ -13,6 +13,8 @@
   if (!viewEl || !clickEl) return;
 
   var localPrefix = "zzs-counter:" + NAMESPACE + ":";
+  var viewLocalKey = localPrefix + VIEW_KEY;
+  var clickLocalKey = localPrefix + CLICK_KEY;
   var remoteValues = {};
 
   function readLocal(key) {
@@ -56,15 +58,10 @@
     show(el, numeric);
   }
 
-  function isTrackedClick(target) {
-    return Boolean(target.closest(
-      "a, button, summary, [onclick], [role=\"button\"], [tabindex], [data-counter]"
-    ));
-  }
-
   function count(key, localKey, el) {
     var fallback = incrementLocal(localKey);
     show(el, fallback);
+    remoteValues[el.id] = Math.max(remoteValues[el.id] || 0, fallback);
 
     return fetch(API + "/hit/" + NAMESPACE + "/" + key, {
       method: "GET",
@@ -84,14 +81,12 @@
       });
   }
 
-  count(VIEW_KEY, localPrefix + VIEW_KEY, viewEl);
+  show(viewEl, readLocal(viewLocalKey));
+  show(clickEl, readLocal(clickLocalKey));
+  count(VIEW_KEY, viewLocalKey, viewEl);
 
-  document.addEventListener("click", function (event) {
-    var target = event.target;
-    if (!target || !target.closest) return;
-    if (isTrackedClick(target)) {
-      count(CLICK_KEY, localPrefix + CLICK_KEY, clickEl);
-    }
+  document.addEventListener("click", function () {
+    count(CLICK_KEY, clickLocalKey, clickEl);
   }, true);
 })();
 </script>
