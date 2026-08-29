@@ -7,13 +7,13 @@
   var NAMESPACE = "{{ counter_namespace | escape }}";
   var VIEW_KEY = "views";
   var CLICK_KEY = "clicks";
-  var TRACK_SCOPE = "{{ site.counter_click_scope | default: 'content' | escape }}";
   var viewEl = document.getElementById("site-views");
   var clickEl = document.getElementById("site-clicks");
 
   if (!viewEl || !clickEl) return;
 
   var localPrefix = "zzs-counter:" + NAMESPACE + ":";
+  var remoteValues = {};
 
   function readLocal(key) {
     try {
@@ -45,24 +45,21 @@
     }
   }
 
+  function showRemote(el, value) {
+    var numeric = Number(value);
+    if (!isFinite(numeric)) return;
+
+    var previous = remoteValues[el.id] || 0;
+    if (numeric < previous) return;
+
+    remoteValues[el.id] = numeric;
+    show(el, numeric);
+  }
+
   function isTrackedClick(target) {
-    if (TRACK_SCOPE === "all") {
-      return Boolean(target.closest("a, button, summary"));
-    }
-
-    if (target.closest("[data-counter]")) return true;
-
-    if (target.closest("#site-nav button")) return false;
-
-    var link = target.closest("a");
-    if (link) {
-      var href = link.getAttribute("href") || "";
-      if (href.charAt(0) === "#") return false;
-      if (/^(https?:|mailto:|tel:|javascript:)/i.test(href)) return true;
-      if (/\.(jpe?g|png|gif|webp)(\?.*)?$/i.test(href)) return true;
-    }
-
-    return Boolean(target.closest(".action-btn"));
+    return Boolean(target.closest(
+      "a, button, summary, [onclick], [role=\"button\"], [tabindex], [data-counter]"
+    ));
   }
 
   function count(key, localKey, el) {
@@ -80,7 +77,7 @@
         return response.json();
       })
       .then(function (data) {
-        show(el, data.value);
+        showRemote(el, data.value);
       })
       .catch(function () {
         show(el, fallback);
