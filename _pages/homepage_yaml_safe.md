@@ -496,6 +496,27 @@ summary {
       An RL-assisted evolutionary feature selection framework (EFSARE) that combines a <strong>feature-level encoding strategy</strong>, reinforcement learning, and age-guided reduction and expansion for high-dimensional classification.
     </div>
 
+<!-- 👇 修改为直接跳转至 IEEE Xplore 的按钮 👇 -->
+  <div class="action-row" style="margin-top: 12px; margin-bottom: 16px;">
+    <a href="https://doi.org/10.1109/TEVC.2026.3730545" target="_blank" class="action-btn">
+      🔗 IEEE Xplore
+    </a>
+
+    <a href="javascript:void(0)" class="action-btn" onclick="navigator.clipboard.writeText(this.dataset.bibtex); const originalText = this.innerText; this.innerText='✅ Copied!'; setTimeout(() => this.innerText=originalText, 2000);" data-bibtex="
+  @ARTICLE{11677168,
+  author={Zhang, Zesheng and Han, Shoufei and Liu, Xiaojing and Li, Changhe and Yang, Kaixiang and Dang, Qianlong},
+  journal={IEEE Transactions on Evolutionary Computation}, 
+  title={Learning-Assisted Evolutionary Feature Selection via Age-Reinforced Reduction and Expansion for High-Dimensional Classification Problems}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Feature extraction;Algorithms;Optimization;Modeling;Evolutionary computation;Aging;Accuracy;Learning (artificial intelligence);Encoding;High dimensional data;Feature selection;evolutionary computation;high-dimensional classification;solution representation;reduction-and-expansion strategy},
+  doi={10.1109/TEVC.2026.3730545}}">
+      📝 BibTeX
+    </a>
+  </div>
+
     <div class="pub-figure">
       <img src="{{ '/images/framer.png' | relative_url }}" alt="Overall framework of the EFSARE" width="1800" height="773" loading="lazy" decoding="async">
     </div>
