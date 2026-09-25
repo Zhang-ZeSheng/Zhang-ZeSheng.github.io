@@ -468,6 +468,18 @@ summary {
     </div>
 
   </div>
+  
+<div class="info-card soft">
+    <div class="edu-head">
+      <img class="edu-logo" src="{{ '/images/SE.png' | relative_url }}" alt="Anhui University of Science and Technology" width="76" height="76" loading="lazy" decoding="async">
+
+      <div>
+        <div class="edu-name">Southeast University</div>
+        <div class="edu-meta">M.Eng. in Intelligence Science and Technology &nbsp; | &nbsp; Sep. 2027 – Jun. 2030</div>
+      </div>
+    </div>
+
+  </div>
 
 
 </div>
