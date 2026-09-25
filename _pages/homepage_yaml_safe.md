@@ -558,7 +558,7 @@ summary {
     </h3>
 
     <div class="pub-authors">
-      <strong>Zesheng Zhang</strong>, Shoufei Han*, Xiaojing Liu, Yongbiao Gao*, Kun Zhu, Zhi Liu, and Liang Zhao
+      Shoufei Han*, <strong>Zesheng Zhang</strong>, Xiaojing Liu, Yongbiao Gao*, Kun Zhu, Zhi Liu, and Liang Zhao
     </div>
 
     <div class="pub-venue">
