@@ -570,6 +570,26 @@ summary {
       An adaptive decision-space contraction framework (ADSC) that initializes diverse solutions with <strong>cosine similarity</strong> and greedily contracts the feature space for sparse IIoT data.
     </div>
 
+    <div class="action-row" style="margin-top: 12px; margin-bottom: 16px;">
+    <a href="https://doi.org/10.1109/JIOT.2026.3737819" target="_blank" class="action-btn">
+      🔗 IEEE Xplore
+    </a>
+
+    <a href="javascript:void(0)" class="action-btn" onclick="navigator.clipboard.writeText(this.dataset.bibtex); const originalText = this.innerText; this.innerText='✅ Copied!'; setTimeout(() => this.innerText=originalText, 2000);" data-bibtex="
+  @ARTICLE{11721073,
+  author={Han, Shoufei and Zhang, Zesheng and Liu, Xiaojing and Gao, Yongbiao and Zhu, Kun and Zhao, Liang},
+  journal={IEEE Internet of Things Journal}, 
+  title={Evolutionary Feature Selection via Cosine Similarity Initialization and Manifold Contracting for Sparse IIoT Data}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Feature extraction;Optimization;Algorithms;Accuracy;Internet of Things;Evolutionary computation;Measurement;Ranking (statistics);Manifolds;Testing;Industrial Internet of Things (IIoT);Feature selection;evolutionary computation;dimensionality reduction},
+  doi={10.1109/JIOT.2026.3737819}}">
+      📝 BibTeX
+    </a>
+  </div>
+
     <div class="pub-figure">
       <img src="{{ '/images/ADSC_frame.png' | relative_url }}" alt="Overall framework of the ADSC" width="1800" height="876" loading="lazy" decoding="async">
     </div>
